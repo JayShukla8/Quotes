@@ -15,37 +15,32 @@
    ```
    cd Quotes
    ```
+   
 4. **Create a New Branch:**
 
    ```
    git checkout -b your_branch
    ```
 
-4. **Make Your Changes:**
+5. **Make Your Changes:**
    - Add your quote to the data.json file in proper format.
 
    ```
    git add .
    ```
 
-5. **Commit Your Changes:**
+6. **Commit Your Changes:**
 
    ```
    git commit -m "Relevant message"
    ```
 
-6. **Push to Your Branch:**
+7. **Push to Your Branch:**
 
    ```
    git push origin your_branch
    ```
 
-7. **Create a Pull Request:**
-   - Go to your forked repository on GitHub and create a pull request to the main repository.
-
-
-4. **Keep Updated:**
-   - Regularly pull changes from the upstream repository to keep your fork updated.
-
-We look forward to your contributions and thank you for being a part of our community!
+8. **Create a Pull Request:**
+   - Go to your forked repository on GitHub and create a pull request to the main repository *and i'll merge it as soon as i can.*
 
