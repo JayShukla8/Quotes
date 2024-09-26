@@ -1,5 +1,6 @@
 # Quotes.
 Some of the greatest quotes, submitted by You.[^1]
+
 [here](https://jayshukla8.github.io/Quotes/)
 
 ## Contributing (see contributing.md for how?)
