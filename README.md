@@ -6,4 +6,4 @@ Just add your favorite quote in the data.json file. (from any book, poem, movie,
 
 Ideas welcome in Issue Discussions.
 
-[^1]: This page inspired by ![pckltr's Mental Health Repo](https://github.com/pckltr/mental-health).
+[^1]: This page inspired by [pckltr's Mental Health Repo](https://github.com/pckltr/mental-health).
