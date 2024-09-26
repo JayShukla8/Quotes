@@ -1,0 +1,47 @@
+body {
+  background-color: #ebebeb;
+  background-image: url(images/waves.svg);
+  background-size: 150px;
+  padding: 20px;
+}
+
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#quotes-container {
+  display: flex;
+  flex-wrap: wrap;            /* Allows items to wrap into multiple rows */
+  justify-content: flex-start;  /* Aligns blocks to the left */
+  align-items: stretch;       /* Makes the quote blocks stretch vertically to fit their content */
+  gap: 20px;                  /* Adds spacing between the blocks */
+}
+
+.quote-block {
+  background-color: #fff;
+  border: 2px solid #c4b3a9;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 0 1 auto;             /* Ensures the block takes up only the necessary width */
+  max-width: 100%;            /* Prevents the block from exceeding the container's width */
+  box-sizing: border-box;
+}
+.quote-text {
+  font-size: 1.2em;
+  color: #333;
+}
+.quote-author {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.quote-source {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 5px;
+  color: #666;
+}
