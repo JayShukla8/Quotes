@@ -13,6 +13,13 @@ Ideas welcome in Issue Discussions.
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/DebarjunChakraborty"><img src="https://avatars.githubusercontent.com/u/147123894?v=4?s=100" width="100px;" alt="Debarjun Chakraborty"/><br /><sub><b>Debarjun Chakraborty</b></sub></a><br /><a href="#data-DebarjunChakraborty" title="Data">🔣</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
