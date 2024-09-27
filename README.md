@@ -8,4 +8,15 @@ Just add your favorite quote in the data.json file. (from any book, poem, movie,
 
 Ideas welcome in Issue Discussions.
 
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 [^1]: This page inspired by [pckltr's Mental Health Repo](https://github.com/pckltr/mental-health).
