@@ -19,6 +19,7 @@ Ideas welcome in Issue Discussions.
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/DebarjunChakraborty"><img src="https://avatars.githubusercontent.com/u/147123894?v=4?s=100" width="100px;" alt="Debarjun Chakraborty"/><br /><sub><b>Debarjun Chakraborty</b></sub></a><br /><a href="#data-DebarjunChakraborty" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.panayiotisgeorgiou.com"><img src="https://avatars.githubusercontent.com/u/1752156?v=4?s=100" width="100px;" alt="Panayiotis Georgiou"/><br /><sub><b>Panayiotis Georgiou</b></sub></a><br /><a href="#data-georgioupanayiotis" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/NidhiNayak08"><img src="https://avatars.githubusercontent.com/u/111973548?v=4?s=100" width="100px;" alt="Nidhi Nayak"/><br /><sub><b>Nidhi Nayak</b></sub></a><br /><a href="#data-NidhiNayak08" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Nilesh270"><img src="https://avatars.githubusercontent.com/u/97271873?v=4?s=100" width="100px;" alt="Nilesh Balotiya"/><br /><sub><b>Nilesh Balotiya</b></sub></a><br /><a href="#data-Nilesh270" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
