@@ -37,6 +37,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Append the quote block to the container
         quotesContainer.appendChild(quoteBlock);
+
+        quoteBlock.addEventListener('click', function () {
+          navigator.clipboard.writeText(quoteText.textContent)
+            .then(() => {
+              console.log("Quote copied to clipboard!");
+            })
+            .catch(err => {
+              console.log('Error copying text: ', err);
+            });
+        });
       });
     })
     .catch(error => {
