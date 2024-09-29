@@ -6,8 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
       // Get the container to display the quotes
       const quotesContainer = document.getElementById('quotes-container');
 
-      // Iterate over the quotes in the JSON file
-      data.quotes.forEach(quoteData => {
+      // Shuffle the quotes array
+      const shuffledQuotes = data.quotes.sort(() => Math.random() - 0.5);
+
+      // Iterate over the shuffled quotes
+      shuffledQuotes.forEach(quoteData => {
         // Create a div for each quote block
         const quoteBlock = document.createElement('div');
         quoteBlock.className = 'quote-block';
@@ -15,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
         // Add the quote text
         const quoteText = document.createElement('p');
         quoteText.className = 'quote-text';
-        // quoteText.innerHTML = quoteData.quote.replace(/\n/g, '<br>');
         quoteText.textContent = quoteData.quote || quoteData.text; // Handle both "quote" and "text" keys
 
         // Add the author
