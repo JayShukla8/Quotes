@@ -36,18 +36,18 @@ body {
 }
 
 .quote-text {
-  font-size: 1em;
+  font-size: 1.2em;
   margin-top: 0.25em;
   color: #333;
 }
 .quote-author {
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: bold;
   text-align: right;
   margin-top: 10px;
 }
 .quote-source {
-  font-size: 0.7em;
+  font-size: 0.8em;
   font-style: italic;
   text-align: left;
   margin-top: 5px;
