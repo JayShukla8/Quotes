@@ -1,6 +1,7 @@
 body {
-  background-color: #ebebeb;
-  background-image: url(images/waves.svg);
+  background: linear-gradient(to bottom, #e0c3fc, #8ec5fc, #ffafbd, #ffccba),url(images/bubbles.png);
+  background-position: center;
+  background-blend-mode: overlay;
   background-size: 150px;
   padding: 20px;
 }
@@ -20,7 +21,7 @@ body {
 }
 
 .quote-block {
-  background-color: #fff;
+  background-color: #f8f8f4;
   border: 2px solid #c4b3a9;
   padding: 5px 20px;
   margin: 10px;
@@ -32,7 +33,7 @@ body {
 }
 
 .quote-block:hover {
-  box-shadow: 3px 3px #989796;
+  box-shadow: 3px 3px #400c56;
 }
 
 .quote-text {
@@ -71,11 +72,19 @@ body {
 }
 
 body.dark {
-  background-color: #333;
+  background: 
+    linear-gradient(to bottom, #000000, #1a1a4b, #4b0082, #000d33),
+    url('images/stars.png');
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+body.dark h2{
+  color:white;
 }
 
 body.dark .quote-block {
-  background-color: #555;
+  background-color: #5f5e5e;
   border-color: #777;
 }
 
@@ -86,4 +95,10 @@ body.dark .quote-text {
 body.dark .quote-author,
 body.dark .quote-source {
   color: #ddd;
+}
+body.dark .quote-block:hover{
+  box-shadow: 3px 3px #e5bfd9;
+}
+body.dark .github-link{
+  background-color: white;
 }
