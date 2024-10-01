@@ -199,7 +199,321 @@
         "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
         "author": "Nelson Mandela",
         "source": "Long Walk to Freedom"
+    },
+    {
+      "quote": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "source": "Stanford Commencement Address, 2005"
+    },
+    {
+      "quote": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.'",
+      "author": "Martin Luther King Jr.",
+      "source": "I Have a Dream speech, 1963"
+    },
+    {
+      "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
+      "author": "Robert Frost",
+      "source": "The Road Not Taken, 1916"
+    },
+    {
+      "quote": "Ask not what your country can do for you – ask what you can do for your country.",
+      "author": "John F. Kennedy",
+      "source": "Inaugural Address, 1961"
+    },
+    {
+      "quote": "I think, therefore I am.",
+      "author": "René Descartes",
+      "source": "Discourse on the Method, 1637"
+    },
+    {
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "source": "Long Walk to Freedom, 1995"
+    },
+    {
+      "quote": "Life is what happens to you while you're busy making other plans.",
+      "author": "John Lennon",
+      "source": "Beautiful Boy (Darling Boy), 1980"
+    },
+    {
+      "quote": "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.",
+      "author": "Martin Luther King Jr.",
+      "source": "Strength to Love, 1963"
+    },
+    {
+      "quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "source": "You Learn by Living, 1960"
+    },
+    {
+      "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+      "author": "Thomas A. Edison",
+      "source": "As quoted in Thomas Alva Edison: Sixty Years of an Inventor's Life, 1908"
+    },
+    {
+      "quote": "To be or not to be, that is the question.",
+      "author": "William Shakespeare",
+      "source": "Hamlet, 1603"
+    },
+    {
+      "quote": "The only thing necessary for the triumph of evil is for good men to do nothing.",
+      "author": "Edmund Burke",
+      "source": "Attributed, but source disputed"
+    },
+    {
+      "quote": "I disapprove of what you say, but I will defend to the death your right to say it.",
+      "author": "Evelyn Beatrice Hall",
+      "source": "The Friends of Voltaire, 1906"
+    },
+    {
+      "quote": "The greatest wealth is to live content with little.",
+      "author": "Plato",
+      "source": "The Republic"
+    },
+    {
+      "quote": "The only true wisdom is in knowing you know nothing.",
+      "author": "Socrates",
+      "source": "As quoted in Plato's Apology"
+    },
+    {
+      "quote": "It is during our darkest moments that we must focus to see the light.",
+      "author": "Aristotle",
+      "source": "Attributed, but source disputed"
+    },
+    {
+      "quote": "The secret of happiness is freedom, the secret of freedom is courage.",
+      "author": "Thucydides",
+      "source": "History of the Peloponnesian War"
+    },
+    {
+      "quote": "Man is by nature a political animal.",
+      "author": "Aristotle",
+      "source": "Politics"
+    },
+    {
+      "quote": "I think therefore I am.",
+      "author": "René Descartes",
+      "source": "Discourse on the Method, 1637"
+    },
+    {
+      "quote": "He who has a why to live can bear almost any how.",
+      "author": "Friedrich Nietzsche",
+      "source": "Twilight of the Idols, 1888"
+    },
+    {
+      "quote": "God is dead. God remains dead. And we have killed him.",
+      "author": "Friedrich Nietzsche",
+      "source": "The Gay Science, 1882"
+    },
+    {
+      "quote": "I think, therefore I am.",
+      "author": "René Descartes",
+      "source": "Discourse on the Method, 1637"
+    },
+    {
+      "quote": "One cannot step twice in the same river.",
+      "author": "Heraclitus",
+      "source": "As quoted by Plato in Cratylus"
+    },
+    {
+      "quote": "The life of man [is] solitary, poor, nasty, brutish, and short.",
+      "author": "Thomas Hobbes",
+      "source": "Leviathan, 1651"
+    },
+    {
+      "quote": "I know that I know nothing.",
+      "author": "Socrates",
+      "source": "As quoted in Plato's Apology"
+    },
+    {
+      "quote": "To be is to be perceived.",
+      "author": "George Berkeley",
+      "source": "A Treatise Concerning the Principles of Human Knowledge, 1710"
+    },
+    {
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Will Durant",
+      "source": "The Story of Philosophy, 1926 (often misattributed to Aristotle)"
+    },
+    {
+      "quote": "The unexamined life is not worth living.",
+      "author": "Socrates",
+      "source": "As quoted in Plato's Apology"
+    },
+    {
+      "quote": "I can control my passions and emotions if I can understand their nature.",
+      "author": "Spinoza",
+      "source": "Ethics, 1677"
+    },
+    {
+      "quote": "Happiness is the highest good.",
+      "author": "Aristotle",
+      "source": "Nicomachean Ethics"
+    },
+    {
+      "quote": "There is only one good, knowledge, and one evil, ignorance.",
+      "author": "Socrates",
+      "source": "As quoted by Diogenes Laërtius"
+    },
+    {
+      "quote": "The function of prayer is not to influence God, but rather to change the nature of the one who prays.",
+      "author": "Søren Kierkegaard",
+      "source": "Purity of Heart Is to Will One Thing, 1847"
+    },
+    {
+      "quote": "Man is condemned to be free.",
+      "author": "Jean-Paul Sartre",
+      "source": "Being and Nothingness, 1943"
+    },
+    {
+      "quote": "One cannot conceive anything so strange and so implausible that it has not already been said by one philosopher or another.",
+      "author": "René Descartes",
+      "source": "Le Discours de la Méthode, 1637"
+    },
+    {
+      "quote": "There is but one truly serious philosophical problem, and that is suicide.",
+      "author": "Albert Camus",
+      "source": "The Myth of Sisyphus, 1942"
+    },
+    {
+      "quote": "The owl of Minerva spreads its wings only with the falling of the dusk.",
+      "author": "G.W.F. Hegel",
+      "source": "Philosophy of Right, 1820"
+    },
+    {
+      "quote": "Entities should not be multiplied unnecessarily.",
+      "author": "William of Ockham",
+      "source": "Attributed, principle known as Occam's Razor"
+    },
+    {
+      "quote": "The limits of my language mean the limits of my world.",
+      "author": "Ludwig Wittgenstein",
+      "source": "Tractatus Logico-Philosophicus, 1921"
+    },
+    {
+      "quote": "I am the wisest man alive, for I know one thing, and that is that I know nothing.",
+      "author": "Socrates",
+      "source": "As quoted in Plato's Apology"
+    },
+    {
+      "quote": "The greatest happiness of the greatest number is the foundation of morals and legislation.",
+      "author": "Jeremy Bentham",
+      "source": "A Fragment on Government, 1776"
+    },
+    {
+      "quote": "Whereof one cannot speak, thereof one must be silent.",
+      "author": "Ludwig Wittgenstein",
+      "source": "Tractatus Logico-Philosophicus, 1921"
+    },
+    {
+      "quote": "The mind is furnished with ideas by experience alone.",
+      "author": "John Locke",
+      "source": "An Essay Concerning Human Understanding, 1689"
+    },
+    {
+      "quote": "To be is to do.",
+      "author": "Immanuel Kant",
+      "source": "Attributed, but source disputed"
+    },
+    {
+      "quote": "Cogito, ergo sum. (I think, therefore I am.)",
+      "author": "René Descartes",
+      "source": "Principles of Philosophy, 1644"
+    },
+    {
+      "quote": "There is no such thing as society: there are individual men and women, and there are families.",
+      "author": "Margaret Thatcher",
+      "source": "Interview for Woman's Own, 1987"
+    },
+    {
+      "quote": "The philosophers have only interpreted the world, in various ways. The point, however, is to change it.",
+      "author": "Karl Marx",
+      "source": "Theses on Feuerbach, 1845"
+    },
+    {
+      "quote": "What does not destroy me, makes me stronger.",
+      "author": "Friedrich Nietzsche",
+      "source": "Twilight of the Idols, 1888"
+    },
+    {
+      "quote": "I am not what happened to me, I am what I choose to become.",
+      "author": "Carl Jung",
+      "source": "Attributed, but source disputed"
+    },
+    {
+      "quote": "We are what we pretend to be, so we must be careful about what we pretend to be.",
+      "author": "Kurt Vonnegut",
+      "source": "Mother Night, 1961"
+    },
+    {
+      "quote": "The wise man should restrain his senses like the crane and accomplish his purpose with due knowledge of his place, time and ability.",
+      "author": "Chanakya",
+      "source": "Chanakya Niti"
+    },
+    {
+      "quote": "The world is the great gymnasium where we come to make ourselves strong.",
+      "author": "Swami Vivekananda",
+      "source": "Lectures from Colombo to Almora"
+    },
+    {
+      "quote": "Detachment is not that you should own nothing, but that nothing should own you.",
+      "author": "Ali ibn Abi Talib",
+      "source": "Nahjul Balagha"
+    },
+    {
+      "quote": "The goal of life is to make your heartbeat match the beat of the universe, to match your nature with Nature.",
+      "author": "Joseph Campbell",
+      "source": "The Power of Myth"
+    },
+    {
+      "quote": "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions.",
+      "author": "Lord Krishna",
+      "source": "Bhagavad Gita, Chapter 2, Verse 47"
+    },
+    {
+      "quote": "The self is the friend of a man who masters himself through the self, but for a man without self-mastery, the self is like an enemy at war.",
+      "author": "Lord Krishna",
+      "source": "Bhagavad Gita, Chapter 6, Verse 6"
+    },
+    {
+      "quote": "One who sees inaction in action, and action in inaction, is intelligent among men.",
+      "author": "Lord Krishna",
+      "source": "Bhagavad Gita, Chapter 4, Verse 18"
+    },
+    {
+      "quote": "There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.",
+      "author": "Ernest Hemingway",
+      "source": "Attributed, but source disputed"
+    },
+    {
+      "quote": "The wise grieve neither for the living nor for the dead.",
+      "author": "Lord Krishna",
+      "source": "Bhagavad Gita, Chapter 2, Verse 11"
+    },
+    {
+      "quote": "Karmanye vadhikaraste Ma Phaleshu Kadachana, Ma Karmaphalaheturbhurma Te Sangostvakarmani.",
+      "author": "Lord Krishna",
+      "source": "Bhagavad Gita, Chapter 2, Verse 47"
+    },
+    {
+      "quote": "The mind is restless and difficult to restrain, but it is subdued by practice.",
+      "author": "Patanjali",
+      "source": "Yoga Sutras, Chapter 1, Verse 14"
+    },
+    {
+      "quote": "Undisturbed calmness of mind is attained by cultivating friendliness toward the happy, compassion for the unhappy, delight in the virtuous, and indifference toward the wicked.",
+      "author": "Patanjali",
+      "source": "Yoga Sutras, Chapter 1, Verse 33"
+    },
+    {
+      "quote": "When you are inspired by some great purpose, some extraordinary project, all your thoughts break their bonds.",
+      "author": "Patanjali",
+      "source": "Yoga Sutras"
+    },
+    {
+      "quote": "Comfort is no test of truth. Truth is often far from being comfortable.",
+      "author": "Swami Vivekananda",
+      "source": "Complete Works of Swami Vivekananda"
     }
-      
   ]
 }
