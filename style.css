@@ -87,3 +87,30 @@ body.dark .quote-author,
 body.dark .quote-source {
   color: #ddd;
 }
+
+.quote-rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.star {
+  font-size: 24px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star:hover,
+.star.active {
+  color: #ffd700;
+}
+
+body.dark .star {
+  color: #666;
+}
+
+body.dark .star:hover,
+body.dark .star.active {
+  color: #ffd700;
+}
