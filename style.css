@@ -32,7 +32,8 @@ body {
 }
 
 .quote-block:hover {
-  box-shadow: 3px 3px #989796;
+  box-shadow: 3px 3px  #797878;
+  zoom: 101%;
 }
 
 .quote-text {
