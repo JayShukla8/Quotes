@@ -52,3 +52,20 @@ body {
   margin-top: 5px;
   color: #666;
 }
+.star-rating {
+  display: flex;
+  margin-top: 10px;
+}
+
+.star {
+  font-size: 1.5em;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star:hover,
+.star.rated {
+  color: #ffcc00;
+  /* Gold color for rated stars */
+}

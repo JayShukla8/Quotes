@@ -1,43 +1,51 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Fetch the data from data.json
   fetch('data.json')
     .then(response => response.json())
     .then(data => {
-      // Get the container to display the quotes
       const quotesContainer = document.getElementById('quotes-container');
-
-      // Shuffle the quotes array
       const shuffledQuotes = data.quotes.sort(() => Math.random() - 0.5);
 
-      // Iterate over the shuffled quotes
       shuffledQuotes.forEach(quoteData => {
-        // Create a div for each quote block
         const quoteBlock = document.createElement('div');
         quoteBlock.className = 'quote-block';
 
-        // Add the quote text
         const quoteText = document.createElement('p');
         quoteText.className = 'quote-text';
-        quoteText.textContent = quoteData.quote || quoteData.text; // Handle both "quote" and "text" keys
+        quoteText.textContent = quoteData.quote || quoteData.text;
 
-        // Add the author
         const quoteAuthor = document.createElement('p');
         quoteAuthor.className = 'quote-author';
         quoteAuthor.textContent = `— ${quoteData.author}`;
 
-        // Add the source
         const quoteSource = document.createElement('p');
         quoteSource.className = 'quote-source';
         quoteSource.textContent = `Source: ${quoteData.source}`;
 
-        // Append the elements to the quote block
+        // Create star rating element
+        const starRating = document.createElement('div');
+        starRating.className = 'star-rating';
+
+        // Create 5 stars
+        for (let i = 1; i <= 5; i++) {
+          const star = document.createElement('span');
+          star.className = 'star';
+          star.dataset.rating = i;
+          star.innerHTML = '★';
+          star.addEventListener('click', function () {
+            setRating(starRating, i);
+          });
+          starRating.appendChild(star);
+        }
+
+        // Append elements to the quote block
         quoteBlock.appendChild(quoteText);
         quoteBlock.appendChild(quoteAuthor);
         quoteBlock.appendChild(quoteSource);
+        quoteBlock.appendChild(starRating);
 
-        // Append the quote block to the container
         quotesContainer.appendChild(quoteBlock);
 
+        // Copy quote on click
         quoteBlock.addEventListener('click', function () {
           navigator.clipboard.writeText(quoteText.textContent)
             .then(() => {
@@ -53,3 +61,15 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error('Error fetching the JSON data:', error);
     });
 });
+
+// Function to set rating
+function setRating(starRating, rating) {
+  const stars = starRating.querySelectorAll('.star');
+  stars.forEach((star, index) => {
+    if (index < rating) {
+      star.classList.add('rated');
+    } else {
+      star.classList.remove('rated');
+    }
+  });
+}
