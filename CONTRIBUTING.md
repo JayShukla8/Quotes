@@ -23,7 +23,6 @@
    ```
 
 5. **Make Your Changes:**
-   - Add your quote to the data.json file in proper format.
 
    ```
    git add .
