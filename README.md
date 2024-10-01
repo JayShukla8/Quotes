@@ -27,6 +27,7 @@ Other ideas welcome in Issue Discussions.
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://korrykatti.github.io"><img src="https://avatars.githubusercontent.com/u/143781663?v=4?s=100" width="100px;" alt="KorryKatti"/><br /><sub><b>KorryKatti</b></sub></a><br /><a href="#design-KorryKatti" title="Design">🎨</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Ramya-Clg"><img src="https://avatars.githubusercontent.com/u/176913971?v=4?s=100" width="100px;" alt="Ramya"/><br /><sub><b>Ramya</b></sub></a><br /><a href="#data-Ramya-Clg" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/RAVICHANDRALS507/"><img src="https://avatars.githubusercontent.com/u/79781219?s=400&u=30ecd66a55b16911326bb5f8844d304e31fe3519&v=4" width="100px;" alt="Ravichandra L S"/><br /><sub><b>Ravichandra L S</b></sub></a><br /><a href="#data-theriturajps" title="Data">🔣</a> <a href="#code-theriturajps" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
