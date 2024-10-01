@@ -13,21 +13,21 @@ body {
 
 #quotes-container {
   display: flex;
-  flex-wrap: wrap; /* Allows items to wrap into multiple rows */
-  justify-content: flex-start; /* Aligns blocks to the left */
-  align-items: stretch; /* Makes the quote blocks stretch vertically to fit their content */
-  gap: 10px; /* Adds spacing between the blocks */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 10px;
 }
 
 .quote-block {
   background-color: #fff;
   border: 2px solid #c4b3a9;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 20px;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  flex: 0 1 auto; /* Ensures the block takes up only the necessary width */
-  max-width: 100%; /* Prevents the block from exceeding the container's width */
+  flex: 0 1 auto;
+  max-width: 100%;
   box-sizing: border-box;
   position: relative;
   padding-right: 80px;
@@ -41,12 +41,14 @@ body {
   font-size: 1.2em;
   color: #333;
 }
+
 .quote-author {
   font-size: 1em;
   font-weight: bold;
   text-align: right;
   margin-top: 10px;
 }
+
 .quote-source {
   font-size: 0.9em;
   font-style: italic;
@@ -65,4 +67,37 @@ body {
 .icon {
   cursor: pointer;
   font-size: 1.2em;
+}
+
+.mode-button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.mode-icon {
+  font-size: 24px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+body.dark {
+  background-color: #333;
+}
+
+body.dark .quote-block {
+  background-color: #555;
+  border-color: #777;
+}
+
+body.dark .quote-text {
+  color: #f1f1f1;
+}
+
+body.dark .quote-author,
+body.dark .quote-source {
+  color: #ddd;
 }
