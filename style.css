@@ -114,3 +114,35 @@ body.dark .star:hover,
 body.dark .star.active {
   color: #ffd700;
 }
+
+/* Add this to your existing CSS */
+.share-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-icon svg {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s ease;
+}
+
+.share-icon:hover svg {
+  transform: scale(1.1);
+}
+
+body.dark .share-icon svg {
+  stroke: #fff;
+}
+
+body:not(.dark) .share-icon svg {
+  stroke: #333;
+}
+
+body.dark .share-icon {
+  color: #fff;
+}
