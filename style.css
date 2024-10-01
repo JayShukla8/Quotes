@@ -87,3 +87,7 @@ body.dark .quote-author,
 body.dark .quote-source {
   color: #ddd;
 }
+
+body.dark .heading-text{
+    color: #ddd;
+}
