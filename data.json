@@ -191,15 +191,24 @@
       "source": "Sahih al-Bukhari"
     },
     {
-        "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
-        "author": "Buddha",
-        "source": "The Dhammapada"
+      "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+      "author": "Buddha",
+      "source": "The Dhammapada"
     },
     {
-        "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-        "author": "Nelson Mandela",
-        "source": "Long Walk to Freedom"
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "source": "Long Walk to Freedom"
+    },
+    {
+      "quote": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "source": "Stanford University 2005 Speech"
+    },
+    {
+      "quote": "Success is not the key to happiness. Happiness is the key to success.",
+      "author": "Albert Schweitzer",
+      "source": "Schweitzer's philosophy"
     }
-      
   ]
 }

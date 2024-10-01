@@ -3,48 +3,45 @@ body {
   background-image: url(images/waves.svg);
   background-size: 150px;
   padding: 20px;
-}
-
-.merriweather-light {
   font-family: "Merriweather", serif;
-  font-weight: 300;
-  font-style: normal;
 }
 
 #quotes-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .quote-block {
   background-color: #fff;
-  border: 2px solid #c4b3a9;
-  padding: 5px 20px;
-  margin: 10px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  flex: 0 1 auto;
-  max-width: 100%;
-  box-sizing: border-box;
+  border: 1px solid #c4b3a9;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
 }
 
 .quote-block:hover {
-  box-shadow: 3px 3px #989796;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
 }
 
 .quote-text {
-  font-size: 1.2em;
+  font-size: 1.25em;
   color: #333;
+  line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 .quote-author {
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: bold;
   text-align: right;
   margin-top: 10px;
+  color: #555;
 }
 
 .quote-source {
@@ -52,7 +49,7 @@ body {
   font-style: italic;
   text-align: left;
   margin-top: 5px;
-  color: #666;
+  color: #888;
 }
 
 .mode-button {
@@ -75,8 +72,8 @@ body.dark {
 }
 
 body.dark .quote-block {
-  background-color: #555;
-  border-color: #777;
+  background-color: #444;
+  border-color: #666;
 }
 
 body.dark .quote-text {
