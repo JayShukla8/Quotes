@@ -5,6 +5,7 @@ Some of the greatest quotes, submitted by You.[^1]
 
 ## Contributing (see CONTRIBUTING.md for how?)
 For newbies, adding your favorite quote[^2] in the data.json file would be a good-first issue. 
+
 Other ideas welcome in Issue Discussions.
 
 ## Contributors
