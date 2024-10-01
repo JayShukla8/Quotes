@@ -4,9 +4,8 @@ Some of the greatest quotes, submitted by You.[^1]
 [here](https://jayshukla8.github.io/Quotes/)
 
 ## Contributing (see CONTRIBUTING.md for how?)
-<ins>For first time contributors</ins>, add your favorite quote in the data.json file. (from any book, poem, movie, series that you like along with the author and the source)
-
-Ideas welcome in Issue Discussions.
+For newbies, adding your favorite quote[^2] in the data.json file would be a good-first issue. 
+Other ideas welcome in Issue Discussions.
 
 ## Contributors
 
@@ -32,3 +31,5 @@ Ideas welcome in Issue Discussions.
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 [^1]: This page inspired by [pckltr's Mental Health Repo](https://github.com/pckltr/mental-health).
+[^2]: From any source (book, poem, movie, series, etc) that you like along with the author and the source.
+
