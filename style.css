@@ -87,3 +87,22 @@ body.dark .quote-author,
 body.dark .quote-source {
   color: #ddd;
 }
+
+
+.bubble {
+  position: absolute;
+  background-color: rgba(152, 123, 123, 0.3); /* Transparent bubble */
+  border-radius: 50%;
+  pointer-events: none;
+  animation: moveUp 5s linear infinite;
+  z-index: -1; /* Ensure bubbles are behind all page content */
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-200vh);
+  }
+}
