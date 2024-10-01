@@ -24,6 +24,9 @@ Other ideas welcome in Issue Discussions.
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/theriturajps"><img src="https://avatars.githubusercontent.com/u/107362757?v=4?s=100" width="100px;" alt="Ritu Raj Pratap Singh"/><br /><sub><b>Ritu Raj Pratap Singh</b></sub></a><br /><a href="#data-theriturajps" title="Data">🔣</a> <a href="#code-theriturajps" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kaiyumdev"><img src="https://avatars.githubusercontent.com/u/76748971?v=4?s=100" width="100px;" alt="Md Kaioum Islam"/><br /><sub><b>Md Kaioum Islam</b></sub></a><br /><a href="#data-kaiyumdev" title="Data">🔣</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://korrykatti.github.io"><img src="https://avatars.githubusercontent.com/u/143781663?v=4?s=100" width="100px;" alt="KorryKatti"/><br /><sub><b>KorryKatti</b></sub></a><br /><a href="#design-KorryKatti" title="Design">🎨</a></td>
+    </tr>
   </tbody>
 </table>
 
