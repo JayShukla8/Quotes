@@ -1,3 +1,4 @@
+/* Body Styling */
 body {
   background-color: #ebebeb;
   background-image: url(images/waves.svg);
@@ -5,39 +6,62 @@ body {
   padding: 20px;
 }
 
+/* Font Styling */
 .merriweather-light {
   font-family: "Merriweather", serif;
   font-weight: 300;
   font-style: normal;
 }
 
+/* Quotes Container: Dynamic grid layout */
 #quotes-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Dynamically adjust columns */
+  gap: 10px; /* Space between blocks */
+  justify-items: stretch;
   align-items: stretch;
-  gap: 10px;
 }
 
+/* Quote Block: No fixed height, adjusts based on content */
 .quote-block {
   background-color: #fff;
   border: 2px solid #c4b3a9;
-  padding: 5px 20px;
-  margin: 10px;
+  padding: 15px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  flex: 0 1 auto;
-  max-width: 100%;
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-sizing: border-box;
+  word-wrap: break-word; /* Ensures long words or quotes are properly wrapped */
 }
 
+/* Hover effect */
 .quote-block:hover {
   box-shadow: 3px 3px #989796;
 }
 
+/* Dynamic sizing for bento layout based on content */
+.quote-block:nth-child(3n) {
+  grid-column: span 2;
+}
+
+.quote-block:nth-child(5n) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.quote-block:nth-child(7n) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+/* Text Styling */
 .quote-text {
   font-size: 1.2em;
   color: #333;
+  margin-bottom: 10px;
 }
 
 .quote-author {
@@ -55,21 +79,7 @@ body {
   color: #666;
 }
 
-.mode-button {
-  margin-left: 10px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
-
-.mode-icon {
-  font-size: 24px;
-  line-height: 1;
-  vertical-align: middle;
-}
-
+/* Dark Mode Styles */
 body.dark {
   background-color: #333;
 }
@@ -86,4 +96,20 @@ body.dark .quote-text {
 body.dark .quote-author,
 body.dark .quote-source {
   color: #ddd;
+}
+
+/* Mode Button */
+.mode-button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.mode-icon {
+  font-size: 24px;
+  line-height: 1;
+  vertical-align: middle;
 }
