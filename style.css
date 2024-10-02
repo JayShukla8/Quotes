@@ -87,3 +87,72 @@ body.dark .quote-author,
 body.dark .quote-source {
   color: #ddd;
 }
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ebebeb;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  flex-grow: 3;
+}
+
+.nav-links li {
+  margin-right: 20px;
+  flex: 0.2 ;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #555;
+}
+
+/* Dark mode styling for the navbar */
+body.dark .navbar {
+  background-color: #333;
+}
+
+body.dark .nav-links a {
+  color: #f1f1f1;
+}
+
+body.dark .nav-links a:hover {
+  color: #ddd;
+}
+/* Toggle container (Sun/Moon icon and GitHub link) */
+.toggle-container {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Reduced gap between icons */
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+}
+
+/* Optional: Adjusting the navbar padding */
+.navbar {
+  padding: 10px 15px; /* Reduced padding for a tighter navbar */
+}
