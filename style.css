@@ -108,3 +108,23 @@ body.dark .heading-text{
   font-size: 1.2em;
 }
 
+
+/* back to TOP button style */
+#back-to-top {
+  z-index: 9999;
+  position: fixed;
+  bottom: 100px;
+  right: 50%;
+  border-radius: 50%;
+  background-color: #333030;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+}
+
+#back-to-top:hover {
+  background-color: #201f1f;
+}

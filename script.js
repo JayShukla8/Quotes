@@ -87,3 +87,18 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error("Error fetching the JSON data:", error);
     });
 });
+
+//for he buttn that get back to the top
+const backToTopButton = document.getElementById('back-to-top');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 200) { // adjust this value to your liking
+    backToTopButton.style.display = 'block';
+  } else {
+    backToTopButton.style.display = 'none';
+  }
+});
+
+backToTopButton.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
