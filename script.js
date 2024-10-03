@@ -42,9 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const shareIcon = document.createElement("i");
         shareIcon.className = "icon fas fa-share"; // FontAwesome share icon
 
+        // Add voice icon
+        const voiceIcon = document.createElement("i");
+        voiceIcon.className = "icon fas fa-volume-up"; // FontAwesome voice icon
+
         // Append icons to the container
         iconsContainer.appendChild(copyIcon);
         iconsContainer.appendChild(shareIcon);
+        iconsContainer.appendChild(voiceIcon); // Append voice icon
 
         // Append elements to the quote block
         quoteBlock.appendChild(quoteText);
@@ -80,6 +85,14 @@ document.addEventListener("DOMContentLoaded", function () {
           } else {
             alert("Sharing is not supported in this browser.");
           }
+        });
+
+        // Voice functionality
+        voiceIcon.addEventListener("click", function () {
+          const utterance = new SpeechSynthesisUtterance(
+            `${quoteText.textContent} by ${quoteAuthor.textContent}`
+          );
+          speechSynthesis.speak(utterance);
         });
       });
     })
