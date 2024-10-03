@@ -81,6 +81,33 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "Ramya-Clg",
+      "name": "Ramya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/176913971?v=4",
+      "profile": "https://github.com/Ramya-Clg",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "Sibam-Paul",
+      "name": "Sibam Paul",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158052549?v=4",
+      "profile": "https://github.com/Sibam-Paul",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "roiveredritesh",
+      "name": "Ritesh Tak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36503631?v=4",
+      "profile": "https://github.com/roiveredritesh",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
