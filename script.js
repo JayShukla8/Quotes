@@ -42,6 +42,25 @@ document.addEventListener("DOMContentLoaded", function () {
         const shareIcon = document.createElement("i");
         shareIcon.className = "icon fas fa-share"; // FontAwesome share icon
 
+        // Create the like button
+        const likeIcon = document.createElement('i');
+        likeIcon.className = 'fa-regular fa-heart like-button'; // Unliked heart icon
+
+        let isLiked = false;
+        let count = 0;
+
+        likeIcon.addEventListener('click', function () {
+          isLiked = !isLiked;
+          if (isLiked) {
+            count++;
+            likeIcon.className = 'fa-solid fa-heart like-button'; 
+          } else {
+            count--;
+            likeIcon.className = 'fa-regular fa-heart like-button'; 
+          } 
+          console.log(isLiked ? 'Quote liked!' : 'Quote unliked!');
+        });
+
         // Append icons to the container
         iconsContainer.appendChild(copyIcon);
         iconsContainer.appendChild(shareIcon);
@@ -51,6 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
         quoteBlock.appendChild(quoteAuthor);
         quoteBlock.appendChild(quoteSource);
         quoteBlock.appendChild(iconsContainer);
+        quoteBlock.appendChild(likeIcon); 
 
         // Append the quote block to the container
         quotesContainer.appendChild(quoteBlock);

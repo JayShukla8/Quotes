@@ -108,3 +108,12 @@ body.dark .heading-text{
   font-size: 1.2em;
 }
 
+.like-button {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.like-button.fa-heart {
+  color: #e74c3c;
+}
