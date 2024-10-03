@@ -29,6 +29,8 @@ body {
   flex: 0 1 auto;
   max-width: 100%;
   box-sizing: border-box;
+  position: relative;
+  padding-right: 80px;
 }
 
 .quote-block:hover {
@@ -86,4 +88,16 @@ body.dark .quote-text {
 body.dark .quote-author,
 body.dark .quote-source {
   color: #ddd;
+}
+
+.icons-container {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+.icon {
+  cursor: pointer;
+  font-size: 1.2em;
 }
