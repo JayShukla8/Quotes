@@ -21,7 +21,7 @@ body {
 
 .quote-block {
   background-color: #fff;
-  border: 2px solid #c4b3a9;
+  border: 2px solid #fff;
   padding: 5px 20px;
   margin: 10px;
   border-radius: 10px;
@@ -31,14 +31,14 @@ body {
   box-sizing: border-box;
   position: relative;
   padding-right: 80px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-}
-
-.quote-block:hover {
-  box-shadow: 3px 3px #797878;
-  zoom: 101%;
-  background-color: rgb(219, 204, 86);
-}
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .quote-block:hover {
+  box-shadow: 3px 3px #989796;
+  background-color: rgb(237, 229, 225);
+  border: 2px solid rgb(237, 229, 225);
+  }
 
 .quote-text {
   font-size: 1.2em;
