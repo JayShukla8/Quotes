@@ -76,7 +76,14 @@ body {
 body.dark {
   background-color: #333;
 }
-
+body.dark h2 {
+  color: white;
+}
+body.dark svg {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+}
 body.dark .quote-block {
   background-color: #555;
   border-color: #777;
