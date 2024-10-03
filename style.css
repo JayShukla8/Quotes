@@ -1,8 +1,10 @@
 body {
-  background: linear-gradient(to bottom, #e0c3fc, #8ec5fc, #ffafbd, #ffccba),url(images/bubbles.png);
+  background: radial-gradient(circle at 20% 15%, rgba(150, 110, 70, 0.5), transparent 60%),
+  radial-gradient(circle at 80% 30%, rgba(120, 80, 40, 0.4), transparent 70%),
+  linear-gradient(to bottom, #d2b891, #b7986d, #d0ae85),url(images/stains.png);
   background-position: center;
-  background-blend-mode: overlay;
-  background-size: 150px;
+  background-blend-mode: multiply;
+  background-size: 700px;
   padding: 20px;
 }
 
@@ -33,7 +35,7 @@ body {
 }
 
 .quote-block:hover {
-  box-shadow: 3px 3px #400c56;
+  box-shadow: 3px 3px rgb(56, 32, 13);
 }
 
 .quote-text {
@@ -79,7 +81,7 @@ body.dark {
   background-blend-mode: overlay;
 }
 
-body.dark h2{
+body h2{
   color:white;
 }
 
