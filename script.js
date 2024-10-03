@@ -60,7 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
           navigator.clipboard
             .writeText(quoteText.textContent + " " + quoteAuthor.textContent)
             .then(() => {
-              console.log("Quote copied to clipboard!");
+              // console.log("Quote copied to clipboard!");
+              alert("Quote copied to clipboard!");
             })
             .catch((err) => {
               console.log("Error copying text: ", err);
