@@ -31,11 +31,13 @@ body {
   box-sizing: border-box;
   position: relative;
   padding-right: 80px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
 
 .quote-block:hover {
-  box-shadow: 3px 3px  #797878;
+  box-shadow: 3px 3px #797878;
   zoom: 101%;
+  background-color: rgb(219, 204, 86);
 }
 
 .quote-text {
