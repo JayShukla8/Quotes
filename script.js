@@ -38,6 +38,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const copyIcon = document.createElement("i");
         copyIcon.className = "icon fas fa-copy"; // FontAwesome copy icon
 
+        // Add copied icon
+        const copiedIcon = document.createElement("i");
+        copiedIcon.className = "fa-sharp fa-solid fa-square-check "; //FontAwesome copied icon
+        copiedIcon.style.fontSize = "20px";
+
         // Add share icon
         const shareIcon = document.createElement("i");
         shareIcon.className = "icon fas fa-share"; // FontAwesome share icon
@@ -61,6 +66,8 @@ document.addEventListener("DOMContentLoaded", function () {
             .writeText(quoteText.textContent + " " + quoteAuthor.textContent)
             .then(() => {
               console.log("Quote copied to clipboard!");
+              iconsContainer.removeChild(copyIcon);
+              iconsContainer.insertBefore(copiedIcon, iconsContainer.firstChild);
             })
             .catch((err) => {
               console.log("Error copying text: ", err);
