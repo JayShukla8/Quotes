@@ -87,3 +87,18 @@ body.dark .quote-author,
 body.dark .quote-source {
   color: #ddd;
 }
+
+.like-count {
+  margin-left: 10px;
+  font-size: 1em;
+  color: #333;
+}
+.like-button {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.like-button.fa-heart {
+  color: #e74c3c;
+}
