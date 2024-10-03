@@ -34,7 +34,7 @@ body {
 }
 
 .quote-block:hover {
-  box-shadow: 3px 3px  #797878;
+  box-shadow: 3px 3px #797878;
   zoom: 101%;
 }
 
@@ -73,6 +73,20 @@ body {
   vertical-align: middle;
 }
 
+.icons-container {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+/* Dark Mode Styles */
 body.dark {
   background-color: #333;
 }
@@ -87,24 +101,22 @@ body.dark .quote-text {
 }
 
 body.dark .quote-author,
-body.dark .quote-source {
+body.dark .quote-source,
+body.dark .heading-text {
+  color: #ddd;
+}
+
+body.dark h2 {
   color: #ddd;
 }
 
 
-body.dark .heading-text{
-    color: #ddd;
+.header {
+  background-color: rgb(220, 90, 90);
+  border-radius: 15px;
+  padding: 0px 20px; 
+  position: sticky;
+  top: 0; 
+  z-index: 1000; 
+  margin-bottom: 20px; 
 }
-
-.icons-container {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  display: flex;
-  gap: 10px;
-}
-.icon {
-  cursor: pointer;
-  font-size: 1.2em;
-}
-
