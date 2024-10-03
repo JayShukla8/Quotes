@@ -226,6 +226,11 @@
         "source": "The Dhammapada"
     },
     {
+      "quote": "The happiness of your life depends upon the quality of your thoughts.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations, Book 4, Chapter 3"
+    },
+    {
         "quote": "The world is a transient place, not a place of stay.",
         "author": "Hazrat Ali",
         "source": "Nahj Al-Balaghah Vol.2"
@@ -339,11 +344,6 @@
       "quote": "We can know only that we know nothing. And that is the highest degree of human wisdom.",
       "author": "Leo Tolstoy",
       "source": "War and Peace, 1869"
-    },
-    {
-      "quote": "The happiness of your life depends upon the quality of your thoughts.",
-      "author": "Marcus Aurelius",
-      "source": "Meditations, Book 4, Chapter 3"
     }
   ]
 }
