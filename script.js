@@ -61,7 +61,7 @@ copyIcon.addEventListener("click", function () {
   navigator.clipboard
     .writeText(quoteText.textContent + " " + quoteAuthor.textContent)
     .then(() => {
-      console.log("Quote copied to clipboard!");
+      
 
       // Change the copy icon to a checkmark
       copyIcon.className = "icon fas fa-check";
