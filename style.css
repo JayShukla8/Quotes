@@ -17,26 +17,56 @@ body {
   justify-content: flex-start;
   align-items: stretch;
   gap: 10px;
+  padding-bottom: 10svh;
 }
 
 .quote-block {
   background-color: #fff;
   border: 2px solid #c4b3a9;
+  border-radius: 10px;
   padding: 5px 20px;
   margin: 10px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
   flex: 0 1 auto;
   max-width: 100%;
   box-sizing: border-box;
   position: relative;
   padding-right: 80px;
+  box-shadow: 2px 2px 8px transparent;
+  transform: scale(0);
+  opacity: 0.32;
+  will-change: box-shadow, scale, transform, opacity;
+  transition: box-shadow 250ms ease-in-out, scale 250ms ease-in-out;
+  animation: quote-reveal linear forwards;
+  animation-timeline: view(block);
+  animation-range: entry-crossing calc(0% - 10svh) entry-crossing calc(100% + 10svh);
 }
 
 .quote-block:hover {
-  box-shadow: 3px 3px  #797878;
-  zoom: 101%;
+  box-shadow: 2px 2px 8px #797878;
+  scale: 1.02;
 }
+
+/* scroll driven animation for the quote block */
+@keyframes quote-reveal {
+  0% {
+    /* clip-path: polygon(50% 100%, 50% 100%, 50% 100%, 50% 100%); */
+    transform: scale(0) translateX(-50%) translateY(-100%);
+    opacity: 0;
+  }
+
+  25% {
+    transform: scale(0.25) translateX(-50%) translateY(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1) translateX(0) translateY(0%);
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */
+    opacity: 1;
+  }
+}
+
 
 .quote-text {
   font-size: 1.2em;
@@ -79,7 +109,8 @@ body.dark {
 
 body.dark .quote-block {
   background-color: #555;
-  border-color: #777;
+  /* border-color: #777; */
+  border: 2px solid #777;
 }
 
 body.dark .quote-text {
@@ -92,8 +123,8 @@ body.dark .quote-source {
 }
 
 
-body.dark .heading-text{
-    color: #ddd;
+body.dark .heading-text {
+  color: #ddd;
 }
 
 .icons-container {
@@ -103,8 +134,8 @@ body.dark .heading-text{
   display: flex;
   gap: 10px;
 }
+
 .icon {
   cursor: pointer;
   font-size: 1.2em;
 }
-
