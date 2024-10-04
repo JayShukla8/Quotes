@@ -42,9 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const shareIcon = document.createElement("i");
         shareIcon.className = "icon fas fa-share"; // FontAwesome share icon
 
+        // Add voice icon
+        const voiceIcon = document.createElement("i");
+        voiceIcon.className = "icon fas fa-volume-up"; // FontAwesome voice icon
+
         // Append icons to the container
         iconsContainer.appendChild(copyIcon);
         iconsContainer.appendChild(shareIcon);
+        iconsContainer.appendChild(voiceIcon); // Append voice icon
 
         // Append elements to the quote block
         quoteBlock.appendChild(quoteText);
@@ -56,16 +61,27 @@ document.addEventListener("DOMContentLoaded", function () {
         quotesContainer.appendChild(quoteBlock);
 
         // Copy functionality
-        copyIcon.addEventListener("click", function () {
-          navigator.clipboard
-            .writeText(quoteText.textContent + " " + quoteAuthor.textContent)
-            .then(() => {
-              console.log("Quote copied to clipboard!");
-            })
-            .catch((err) => {
-              console.log("Error copying text: ", err);
-            });
-        });
+       // Copy functionality
+copyIcon.addEventListener("click", function () {
+  navigator.clipboard
+    .writeText(quoteText.textContent + " " + quoteAuthor.textContent)
+    .then(() => {
+      console.log("Quote copied to clipboard!");
+
+      // Change the copy icon to a checkmark
+      copyIcon.className = "icon fas fa-check";
+
+      // Optional: Revert the icon back to copy after a delay (e.g., 2 seconds)
+      setTimeout(() => {
+        copyIcon.className = "icon fas fa-copy";
+      }, 2000);
+
+    })
+    .catch((err) => {
+      console.log("Error copying text: ", err);
+    });
+});
+
 
         // Share functionality
         shareIcon.addEventListener("click", function () {
@@ -80,6 +96,14 @@ document.addEventListener("DOMContentLoaded", function () {
           } else {
             alert("Sharing is not supported in this browser.");
           }
+        });
+
+        // Voice functionality
+        voiceIcon.addEventListener("click", function () {
+          const utterance = new SpeechSynthesisUtterance(
+            `${quoteText.textContent} by ${quoteAuthor.textContent}`
+          );
+          speechSynthesis.speak(utterance);
         });
       });
     })
