@@ -42,7 +42,6 @@ body {
   background-color: rgb(237, 229, 225);
   border: 2px solid rgb(237, 229, 225);
   }
-}
 
 .quote-text {
   font-size: 1.2em;
@@ -90,14 +89,7 @@ body.dark {
 body h2{
   color:white;
 }
-body.dark h2 {
-  color: white;
-}
-body.dark svg {
-  background-color: white;
-  border-radius: 50%;
-  border: 1px solid white;
-}
+
 body.dark .quote-block {
   background-color: #5f5e5e;
   border-color: #777;
@@ -116,11 +108,8 @@ body.dark .quote-block:hover{
 }
 body.dark .github-link{
   background-color: white;
-}
-
-
-body.dark .heading-text{
-    color: #ddd;
+  border-radius: 30%;
+  border: 1px solid white;
 }
 
 .icons-container {
