@@ -60,7 +60,6 @@ document.addEventListener("DOMContentLoaded", function () {
         // Append the quote block to the container
         quotesContainer.appendChild(quoteBlock);
 
-        // Copy functionality
        // Copy functionality
 copyIcon.addEventListener("click", function () {
   navigator.clipboard
@@ -104,7 +103,7 @@ copyIcon.addEventListener("click", function () {
             `${quoteText.textContent} by ${quoteAuthor.textContent}`
           );
           speechSynthesis.speak(utterance);
-        });
+        }); 
       });
     })
     .catch((error) => {
