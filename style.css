@@ -45,9 +45,13 @@ body {
   }
   
 .quote-block:hover {
-  box-shadow: 2px 2px 8px #797878;
+  box-shadow: 3px 3px #44423f;
   background-color: rgb(237, 229, 225);
   }
+
+  body.dark .quote-block:hover {
+    box-shadow: 3px 3px #989796;
+   }
 
   @keyframes quote-reveal {
     0% {
@@ -67,12 +71,6 @@ body {
       opacity: 1;
     }
   }
-  
-.quote-block:hover {
-  box-shadow: 3px 3px #989796;
-  background-color: rgb(237, 229, 225);
-  border: 2px solid rgb(237, 229, 225);
- }
 
 .quote-text {
   font-size: 1.2em;
@@ -118,7 +116,7 @@ body.dark {
 }
 
 body h2{
-  color: #000000;
+  color: rgb(220, 215, 215)
 }
 
 body.dark .quote-block {
@@ -132,10 +130,6 @@ body.dark .quote-text {
 body.dark .quote-author,
 body.dark .quote-source {
   color: #ebdfd1;
-}
-
-body.dark .quote-block:hover{
-  background-color: #484e52;
 }
 
 body.dark .github-link{
