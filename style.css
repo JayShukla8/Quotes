@@ -178,3 +178,53 @@ body.dark .icon {
 	background-color: #f1f1f1;
 	transform: translateY(-5px);
 }
+
+footer {
+  background-color: #f8f8f79e ;
+  padding: 20px 0;
+  margin-top: 30px;
+  text-size-adjust: bold;
+  border: solid rgb(228, 190, 124) 2px;
+  text-align: center;
+  border-radius: 12px;
+  
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+  max-height: 300px;
+}
+
+.footer-container h3 {
+  margin-bottom: 10px;
+  font-family: 'Merriweather', serif;
+  text-size-adjust: bold;
+}
+
+.footer-link {
+  color: #333;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+}
+
+.footer-link i {
+  margin-right: 8px;
+  
+}
+
+.footer-link:hover {
+  color: #2d5fa9;
+  text-decoration:none;
+  font-size: 17px;
+  transition: 0.1s ease;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
