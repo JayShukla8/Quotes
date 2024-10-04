@@ -1,11 +1,12 @@
 body {
-  background: radial-gradient(circle at 20% 15%, rgba(150, 110, 70, 0.5), transparent 60%),
-  radial-gradient(circle at 80% 30%, rgba(120, 80, 40, 0.4), transparent 70%),
+  background: radial-gradient(circle at 20% 15%, rgba(223, 177, 131, 0.5), transparent 60%),
+  radial-gradient(circle at 80% 30%, rgba(138, 104, 69, 0.4), transparent 70%),
   linear-gradient(to bottom, #d2b891, #b7986d, #d0ae85),url(images/stains.png);
   background-position: center;
   background-blend-mode: multiply;
   background-size: 700px;
   padding: 20px;
+  padding-bottom: 10svh;
 }
 
 .merriweather-light {
@@ -24,25 +25,54 @@ body {
 
 .quote-block {
   background-color: #f8f8f4;
-  border: 2px solid #c4b3a9;
   padding: 5px 20px;
   margin: 10px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
   flex: 0 1 auto;
   max-width: 100%;
   box-sizing: border-box;
   position: relative;
   padding-right: 80px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 2px 2px 8px transparent;
+  transform: scale(0);
+  opacity: 0.32;
+  will-change: box-shadow, scale, transform, opacity;
+  transition: box-shadow 250ms ease-in-out, scale 250ms ease-in-out;
+  animation: quote-reveal linear forwards;
+  animation-timeline: view(block);
+  animation-range: entry-crossing calc(0% - 10svh) entry-crossing calc(100% + 10svh);
+  }
+  
+.quote-block:hover {
+  box-shadow: 2px 2px 8px #797878;
+  background-color: rgb(237, 229, 225);
+  }
+
+  @keyframes quote-reveal {
+    0% {
+      /* clip-path: polygon(50% 100%, 50% 100%, 50% 100%, 50% 100%); */
+      transform: scale(0) translateX(-50%) translateY(-100%);
+      opacity: 0;
+    }
+  
+    25% {
+      transform: scale(0.25) translateX(-50%) translateY(-100%);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: scale(1) translateX(0) translateY(0%);
+      /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */
+      opacity: 1;
+    }
   }
   
 .quote-block:hover {
   box-shadow: 3px 3px #989796;
   background-color: rgb(237, 229, 225);
   border: 2px solid rgb(237, 229, 225);
-  }
-}
+ }
 
 .quote-text {
   font-size: 1.2em;
@@ -88,31 +118,32 @@ body.dark {
 }
 
 body h2{
-  color:white;
+  color: #000000;
 }
 
 body.dark .quote-block {
-  background-color: #5f5e5e;
-  border-color: #777;
+  background-color: #484e52;
 }
 
 body.dark .quote-text {
-  color: #f1f1f1;
+  color: #e3cdb3;
 }
 
 body.dark .quote-author,
 body.dark .quote-source {
-  color: #ddd;
+  color: #ebdfd1;
 }
+
 body.dark .quote-block:hover{
-  box-shadow: 3px 3px #e5bfd9;
+  background-color: #484e52;
 }
+
 body.dark .github-link{
   background-color: white;
+  border-radius: 50px;
 }
 
-
-body.dark .heading-text{
+body.dark h2{
     color: #ddd;
 }
 
@@ -126,6 +157,10 @@ body.dark .heading-text{
 .icon {
   cursor: pointer;
   font-size: 1.2em;
+}
+
+body.dark .icon {
+  color: #eee8e1;
 }
 
 #back-to-top {
