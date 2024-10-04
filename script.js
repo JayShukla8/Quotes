@@ -1,130 +1,179 @@
-document.addEventListener("DOMContentLoaded", function () {
-  // Fetch the data from data.json
-  fetch("data.json")
-    .then((response) => response.json())
-    .then((data) => {
-      // Get the container to display the quotes
-      const quotesContainer = document.getElementById("quotes-container");
+body {
+  background: radial-gradient(circle at 20% 15%, rgba(223, 177, 131, 0.5), transparent 60%),
+  radial-gradient(circle at 80% 30%, rgba(138, 104, 69, 0.4), transparent 70%),
+  linear-gradient(to bottom, #d2b891, #b7986d, #d0ae85),url(images/stains.png);
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: 700px;
+  padding: 20px;
+  padding-bottom: 10svh;
+}
 
-      // Shuffle the quotes array
-      const shuffledQuotes = data.quotes.sort(() => Math.random() - 0.5);
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
-      // Iterate over the shuffled quotes
-      shuffledQuotes.forEach((quoteData) => {
-        // Create a div for each quote block
-        const quoteBlock = document.createElement("div");
-        quoteBlock.className = "quote-block";
+#quotes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 10px;
+}
 
-        // Add the quote text
-        const quoteText = document.createElement("p");
-        quoteText.className = "quote-text";
-        quoteText.textContent = quoteData.quote || quoteData.text; // Handle both "quote" and "text" keys
+.quote-block {
+  background-color: #f8f8f4;
+  padding: 5px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+  flex: 0 1 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  padding-right: 80px;
+  box-shadow: 2px 2px 8px transparent;
+  transform: scale(0);
+  opacity: 0.32;
+  will-change: box-shadow, scale, transform, opacity;
+  transition: box-shadow 250ms ease-in-out, scale 250ms ease-in-out;
+  animation: quote-reveal linear forwards;
+  animation-timeline: view(block);
+  animation-range: entry-crossing calc(0% - 10svh) entry-crossing calc(100% + 10svh);
+  }
+  
+.quote-block:hover {
+  background-color: rgb(237, 229, 225);
+}
 
-        // Add the author
-        const quoteAuthor = document.createElement("p");
-        quoteAuthor.className = "quote-author";
-        quoteAuthor.textContent = `— ${quoteData.author}`;
+  @keyframes quote-reveal {
+    0% {
+      /* clip-path: polygon(50% 100%, 50% 100%, 50% 100%, 50% 100%); */
+      transform: scale(0) translateX(-50%) translateY(-100%);
+      opacity: 0;
+    }
+  
+    25% {
+      transform: scale(0.25) translateX(-50%) translateY(-100%);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: scale(1) translateX(0) translateY(0%);
+      /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */
+      opacity: 1;
+    }
+  }
 
-        // Add the source
-        const quoteSource = document.createElement("p");
-        quoteSource.className = "quote-source";
-        quoteSource.textContent = `Source: ${quoteData.source}`;
+.quote-text {
+  font-size: 1.2em;
+  color: #333;
+}
 
-        // Create a container for icons
-        const iconsContainer = document.createElement("div");
-        iconsContainer.className = "icons-container";
+.quote-author {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 10px;
+}
 
-        // Add copy icon
-        const copyIcon = document.createElement("i");
-        copyIcon.className = "icon fas fa-copy"; // FontAwesome copy icon
+.quote-source {
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: left;
+  margin-top: 5px;
+  color: #666;
+}
 
-        // Add share icon
-        const shareIcon = document.createElement("i");
-        shareIcon.className = "icon fas fa-share"; // FontAwesome share icon
+.mode-button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
 
-        // Add voice icon
-        const voiceIcon = document.createElement("i");
-        voiceIcon.className = "icon fas fa-volume-up"; // FontAwesome voice icon
+.mode-icon {
+  font-size: 24px;
+  line-height: 1;
+  vertical-align: middle;
+}
 
-        // Append icons to the container
-        iconsContainer.appendChild(copyIcon);
-        iconsContainer.appendChild(shareIcon);
-        iconsContainer.appendChild(voiceIcon); // Append voice icon
+body.dark {
+  background: 
+    linear-gradient(to bottom, #000000, #1a1a4b, #4b0082, #000d33),
+    url('images/stars.png');
+  background-position: center;
+  background-blend-mode: overlay;
+}
 
-        // Append elements to the quote block
-        quoteBlock.appendChild(quoteText);
-        quoteBlock.appendChild(quoteAuthor);
-        quoteBlock.appendChild(quoteSource);
-        quoteBlock.appendChild(iconsContainer);
+body h2{
+  color: #000000;
+}
 
-        // Append the quote block to the container
-        quotesContainer.appendChild(quoteBlock);
+body.dark .quote-block {
+  background-color: #5f5e5e;
+}
 
-       // Copy functionality
-copyIcon.addEventListener("click", function () {
-  navigator.clipboard
-    .writeText(quoteText.textContent + " " + quoteAuthor.textContent)
-    .then(() => {
-      
+body.dark .quote-text {
+  color: #f1f1f1;
+}
 
-      // Change the copy icon to a checkmark
-      copyIcon.className = "icon fas fa-check";
+body.dark .quote-author,
+body.dark .quote-source {
+  color:  #ddd;
+}
 
-      // Optional: Revert the icon back to copy after a delay (e.g., 2 seconds)
-      setTimeout(() => {
-        copyIcon.className = "icon fas fa-copy";
-      }, 2000);
+body.dark .quote-block:hover{
+  box-shadow: 3px 3px #e5bfd9;
+}
 
-    })
-    .catch((err) => {
-      console.log("Error copying text: ", err);
-    });
-});
+body.dark .github-link{
+  background-color: white;
+  border-radius: 50px;
+}
 
+body.dark h2{
+    color: #ddd;
+}
 
-        // Share functionality
-        shareIcon.addEventListener("click", function () {
-          if (navigator.share) {
-            navigator
-              .share({
-                title: "Quote", // Title for the shared content
-                text: `${quoteText.textContent} ${quoteAuthor.textContent}\n\nRead more at: ${window.location.href}`, // Combine the quote, author, and URL into one text field
-              })
-              .then(() => console.log("Quote shared!"))
-              .catch((error) => console.log("Error sharing:", error));
-          } else {
-            alert("Sharing is not supported in this browser.");
-          }
-        });
+.icons-container {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+.icon {
+  cursor: pointer;
+  font-size: 1.2em;
+}
 
-        // Voice functionality
-        voiceIcon.addEventListener("click", function () {
-          const utterance = new SpeechSynthesisUtterance(
-            `${quoteText.textContent} by ${quoteAuthor.textContent}`
-          );
-          speechSynthesis.speak(utterance);
-        }); 
-      });
-    })
-    .catch((error) => {
-      console.error("Error fetching the JSON data:", error);
-    });
+body.dark .icon {
+  color: #eee8e1;
+}
 
-    // 'Back to top' button functionality
-    const backToTopButton = document.getElementById("back-to-top");
-    backToTopButton.addEventListener("click", function() {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    });
-
-    // Show the 'back to top' button when the user scrolls down
-    window.addEventListener("scroll", function() {
-      if (window.scrollY > 100) {
-        backToTopButton.style.display = "block";
-      } else {
-        backToTopButton.style.display = "none";
-      }
-    });
-});
+#back-to-top {
+  display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #fff;
+	box-shadow: #333 0px 0px 10px;
+	color: white;
+	cursor: pointer;
+	padding: 0.4rem;
+	border-radius: 4px;
+	font-size: 1.2rem;
+	transition: background-color 0.3s, transform 0.3s;
+}
+#back-to-top:hover {
+	background-color: #f1f1f1;
+	transform: translateY(-5px);
+}
