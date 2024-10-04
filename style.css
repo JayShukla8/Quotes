@@ -67,6 +67,12 @@ body {
       opacity: 1;
     }
   }
+  
+.quote-block:hover {
+  box-shadow: 3px 3px #989796;
+  background-color: rgb(237, 229, 225);
+  border: 2px solid rgb(237, 229, 225);
+ }
 
 .quote-text {
   font-size: 1.2em;

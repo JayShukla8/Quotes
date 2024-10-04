@@ -1,6 +1,21 @@
 {
   "quotes": [
     {
+      "quote": "To be everywhere is to be nowhere.",
+      "author": "Seneca",
+      "source": "The Letters of a Stoic"
+    },
+    {
+      "quote": "Adoration is the state furthest away from understanding",
+      "author": "Aizen Sosuke",
+      "source": "Bleach"
+    },
+    {
+      "quote": "Winners are not afraid of losing. But losers are. Failure is part of the process of success. People who avoid failure also avoid success.",
+      "author":"Robert Kiyosaki",
+      "source":"Rich dad,Poor dad"
+    },
+    {
       "quote": "What's Life without a little risk?",
       "author": "Sirius Black",
       "source": "Order of the Phoenix"
@@ -41,46 +56,6 @@
       "source": "Speech, 1941"
     },
     {
-      "quote": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
-      "author": "Martin Luther King Jr.",
-      "source": "Letter from Birmingham Jail"
-    },
-    {
-      "quote": "The only thing we have to fear is fear itself.",
-      "author": "Franklin D. Roosevelt",
-      "source": "First Inaugural Address, 1933"
-    },
-    {
-      "quote": "Imagination is more important than knowledge.",
-      "author": "Albert Einstein",
-      "source": "Interview, 1929"
-    },
-    {
-      "quote": "The journey of a thousand miles begins with one step.",
-      "author": "Lao Tzu",
-      "source": "Tao Te Ching"
-    },
-    {
-      "quote": "That which does not kill us makes us stronger.",
-      "author": "Friedrich Nietzsche",
-      "source": "Twilight of the Idols, 1888"
-    },
-    {
-      "quote": "Be the change that you wish to see in the world.",
-      "author": "Mahatma Gandhi",
-      "source": "Speech, 1913"
-    },
-    {
-      "quote": "The best way to predict the future is to create it.",
-      "author": "Peter Drucker",
-      "source": "Management: Tasks, Responsibilities, Practices, 1973"
-    },
-    {
-      "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
-      "author": "Ralph Waldo Emerson",
-      "source": "Essay: Self-Reliance, 1841"
-    },
-    {
       "quote": "The mind acts like an enemy for those who do not control it.",
       "author": "Shree Krishna",
       "source": "Bhagavad Gita"
@@ -89,21 +64,6 @@
       "quote": "Arise, awake, and stop not till the goal is reached.",
       "author": "Swami Vivekananda",
       "source": "Katha Upanishad"
-    },
-    {
-      "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
-      "author": "Ralph Waldo Emerson",
-      "source": "Essay: Self-Reliance, 1841"
-    },
-    {
-      "quote": "I think, therefore I am.",
-      "author": "René Descartes",
-      "source": "Discourse on the Method, 1637"
-    },
-    {
-      "quote": "You must be the change you wish to see in the world.",
-      "author": "Mahatma Gandhi",
-      "source": "Speech, 1913"
     },
     {
       "quote": "The unexamined life is not worth living.",
@@ -116,11 +76,6 @@
       "source": "Julius Caesar"
     },
     {
-      "quote": "All the world's a stage, and all the men and women merely players.",
-      "author": "William Shakespeare",
-      "source": "As You Like It"
-    },
-    {
       "quote": "I have no special talent. I am only passionately curious.",
       "author": "Albert Einstein",
       "source": "Letter to Carl Seelig, 1952"
@@ -131,54 +86,9 @@
       "source": "Interview, 1937"
     },
     {
-      "quote": "You have the right to perform your prescribed duties, but you are not entitled to the fruits of your actions.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 2, Verse 47"
-    },
-    {
-      "quote": "The soul is neither born, and nor does it die; it is eternal and indestructible.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 2, Verse 20"
-    },
-    {
-      "quote": "A person is said to have attained yoga, the union with the Divine, when, having renounced all desires, he is satisfied in the self by the self.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 6, Verse 20"
-    },
-    {
-      "quote": "Perform your duty equipoised, O Arjuna, abandoning all attachment to success or failure. Such equanimity is called yoga.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 2, Verse 48"
-    },
-    {
-      "quote": "In the middle of difficulty lies opportunity.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 4, Verse 39"
-    },
-    {
-      "quote": "When meditation is mastered, the mind is unwavering like the flame of a lamp in a windless place.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 6, Verse 13"
-    },
-    {
-      "quote": "He who is not disturbed by the dualities of happiness and distress, and is unbothered by the material world, is certainly eligible for liberation.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 14, Verse 22"
-    },
-    {
-      "quote": "The mind is everything. What you think, you become.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 6, Verse 5"
-    },
-    {
       "quote": "Happiness is not something ready made. It comes from your own actions.",
       "author": "Dalai Lama",
       "source": "The Art of Happiness"
-    },
-    {
-      "quote": "The only true wisdom is in knowing you know nothing.",
-      "author": "Socrates",
-      "source": "Plato's Apology"
     },
     {
       "quote": "To love and be loved is to feel the sun from both sides.",
@@ -205,15 +115,17 @@
         "author": "Nelson Mandela",
         "source": "Long Walk to Freedom"
     },
+
+     
     {
       "quote": "That's one small step for a man, one giant leap for mankind.",
       "author": "Neil Armstrong",
       "source": "Interview, July 20, 1969"
     },
     {
-    "quote": "Thinking of Peace Whilst Spilling Blood Is Something Only Humans Could Do.",
-    "author": "Madara Uchiha ",
-    "source": "Naruto Shippuden"
+      "quote": "Thinking of Peace Whilst Spilling Blood Is Something Only Humans Could Do.",
+      "author": "Madara Uchiha ",
+      "source": "Naruto Shippuden"
     },
     {
         "quote": "No one saves us but ourselves. No one can and no one may. We ourselves must walk the path",
@@ -224,6 +136,11 @@
         "quote": "Peace comes from within.  Do not seek it without",
         "author": "Gautama Buddha",
         "source": "The Dhammapada"
+    },
+    {
+      "quote": "The happiness of your life depends upon the quality of your thoughts.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations, Book 4, Chapter 3"
     },
     {
         "quote": "The world is a transient place, not a place of stay.",
@@ -286,41 +203,6 @@
       "source": "Speech at the All-India Depressed Classes Women’s Conference"
     },
     {
-      "quote": "Cultivation of mind should be the ultimate aim of human existence.",
-      "author": "B.R. Ambedkar",
-      "source": "Speech at Siddharth College, 1948"
-    },
-    {
-      "quote": "Political democracy cannot last unless there lies at the base of it social democracy.",
-      "author": "B.R. Ambedkar",
-      "source": "Constituent Assembly Speech, 1949"
-    },
-    {
-      "quote": "Democracy is not merely a form of government. It is primarily a mode of associated living.",
-      "author": "B.R. Ambedkar",
-      "source": "Speech on 26th November 1949, Constituent Assembly"
-    },
-    {
-      "quote": "Religion and slavery are incompatible.",
-      "author": "B.R. Ambedkar",
-      "source": "Annihilation of Caste, 1936"
-    },
-    {
-      "quote": "Injustice anywhere is a threat to justice everywhere.",
-      "author": "Martin Luther King Jr.",
-      "source": "Letter from Birmingham Jail, 1963"
-    },
-    {
-      "quote": "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world.",
-      "author": "Albert Einstein",
-      "source": "Interview in The Saturday Evening Post, 1929"
-    },
-    {
-      "quote": "The journey is the reward.",
-      "author": "Taoist Saying",
-      "source": "Ancient Taoist Philosophy"
-    },
-    {
       "quote": "It is not enough to be industrious; so are the ants. What are you industrious about?",
       "author": "Henry David Thoreau",
       "source": "Letter to H.G.O. Blake, 1857"
@@ -339,6 +221,26 @@
       "quote": "We can know only that we know nothing. And that is the highest degree of human wisdom.",
       "author": "Leo Tolstoy",
       "source": "War and Peace, 1869"
-    }  
+    },
+    {
+      "quote": "The path to innovation is often hidden in the silence of moments we overlook.",
+      "author": "J.A. Sterling",
+      "source": "Original Thought"
+    },
+    {
+      "quote": "And those who were seen dancing were thought to be insane by those who could not hear the music",
+      "author": "Friedrich Nietzsche",
+      "source": "Thus Spoke Zarathustra"
+    },  
+    {
+      "quote": "Difficulties increase the nearer we get to the goal.",
+      "author": "Johann Wolfgang von Goethe",
+      "source": "Meditations, Part X"
+    },
+    {
+      "quote": "Comparison is the thief of joy",
+      "author": "Theodore Roosevelt",
+      "source": "Roosevelt's documented speeches or writings "
+    }
   ]
 }
