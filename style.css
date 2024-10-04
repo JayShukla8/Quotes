@@ -12,11 +12,9 @@ body {
 }
 
 #quotes-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .quote-block {
@@ -35,7 +33,7 @@ body {
 
 .quote-block:hover {
   box-shadow: 3px 3px  #797878;
-  zoom: 101%;
+  transform: scale(1.01);
 }
 
 .quote-text {
@@ -108,3 +106,31 @@ body.dark .heading-text{
   font-size: 1.2em;
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  #quotes-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  #quotes-container {
+    grid-template-columns: 1fr;
+  }
+
+  .quote-block {
+    padding: 10px;
+  }
+
+  .quote-text {
+    font-size: 1em;
+  }
+
+  .quote-author {
+    font-size: 0.9em;
+  }
+
+  .quote-source {
+    font-size: 0.8em;
+  }
+}
