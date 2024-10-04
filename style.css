@@ -1,13 +1,10 @@
 body {
-  background: radial-gradient(circle at 20% 15%, rgba(223, 177, 131, 0.5), transparent 60%),
-  radial-gradient(circle at 80% 30%, rgba(138, 104, 69, 0.4), transparent 70%),
-  linear-gradient(to bottom, #d2b891, #b7986d, #d0ae85),url(images/stains.png);
-  background-position: center;
-  background-blend-mode: multiply;
-  background-size: 700px;
+  background-color: #ebebeb;
+  background-image: url(images/waves.svg);
+  background-size: 150px;
   padding: 20px;
-  padding-bottom: 10svh;
 }
+
 
 .merriweather-light {
   font-family: "Merriweather", serif;
@@ -24,7 +21,8 @@ body {
 }
 
 .quote-block {
-  background-color: #f8f8f4;
+  background-color: #fff;
+  border: 2px solid #c4b3a9;
   padding: 5px 20px;
   margin: 10px;
   border-radius: 10px;
@@ -45,9 +43,8 @@ body {
   }
   
 .quote-block:hover {
-  box-shadow: 2px 2px 8px #797878;
   background-color: rgb(237, 229, 225);
-  }
+}
 
   @keyframes quote-reveal {
     0% {
@@ -67,12 +64,6 @@ body {
       opacity: 1;
     }
   }
-  
-.quote-block:hover {
-  box-shadow: 3px 3px #989796;
-  background-color: rgb(237, 229, 225);
-  border: 2px solid rgb(237, 229, 225);
- }
 
 .quote-text {
   font-size: 1.2em;
@@ -122,20 +113,20 @@ body h2{
 }
 
 body.dark .quote-block {
-  background-color: #484e52;
+  background-color: #5f5e5e;
 }
 
 body.dark .quote-text {
-  color: #e3cdb3;
+  color: #f1f1f1;
 }
 
 body.dark .quote-author,
 body.dark .quote-source {
-  color: #ebdfd1;
+  color:  #ddd;
 }
 
 body.dark .quote-block:hover{
-  background-color: #484e52;
+  box-shadow: 3px 3px #e5bfd9;
 }
 
 body.dark .github-link{
