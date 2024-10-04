@@ -178,3 +178,7 @@ body.dark .icon {
 	background-color: #f1f1f1;
 	transform: translateY(-5px);
 }
+
+.liked {
+  color: red;
+}
