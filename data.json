@@ -100,6 +100,8 @@
         "author": "Nelson Mandela",
         "source": "Long Walk to Freedom"
     },
+
+     
     {
       "quote": "That's one small step for a man, one giant leap for mankind.",
       "author": "Neil Armstrong",
@@ -199,6 +201,12 @@
       "quote": "We can know only that we know nothing. And that is the highest degree of human wisdom.",
       "author": "Leo Tolstoy",
       "source": "War and Peace, 1869"
-    }  
+    }  ,
+    {
+      "quote": "Comparison is the thief of joy",
+      "author": "Theodore Roosevelt",
+      "source": "Roosevelt's documented speeches or writings "
+    }
+
   ]
 }
