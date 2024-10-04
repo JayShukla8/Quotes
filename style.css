@@ -34,10 +34,14 @@ body {
   box-sizing: border-box;
   position: relative;
   padding-right: 80px;
-}
-
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
 .quote-block:hover {
-  box-shadow: 3px 3px rgb(56, 32, 13);
+  box-shadow: 3px 3px #989796;
+  background-color: rgb(237, 229, 225);
+  border: 2px solid rgb(237, 229, 225);
+  }
 }
 
 .quote-text {
