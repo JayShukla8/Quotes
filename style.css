@@ -235,24 +235,3 @@ footer {
 .footer-link {
   color: #333;
   text-decoration: none;
-}
-
-.footer-link i {
-  margin-right: 8px;
-}
-
-.footer-link:hover {
-  color: #000000;
-  text-decoration:none;
-  transition: 0.1s ease;
-  font-size: 18px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin: 10px 0;
-}
