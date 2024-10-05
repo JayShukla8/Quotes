@@ -107,6 +107,31 @@ body {
   vertical-align: middle;
 }
 
+.icons-container {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+.icon {
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.icon:hover {
+  color: gray;
+}
+
+
+body.dark .icon {
+  color: #eee8e1;
+}
+
+body.dark .icon:hover {
+  color: gray;
+}
+
 body.dark {
   background: 
     linear-gradient(to bottom, #000000, #1a1a4b, #4b0082, #000d33),
@@ -132,29 +157,8 @@ body.dark .quote-source {
   color: #ebdfd1;
 }
 
-body.dark .github-link{
-  background-color: white;
-  border-radius: 50px;
-}
-
 body.dark h2{
     color: #ddd;
-}
-
-.icons-container {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  display: flex;
-  gap: 10px;
-}
-.icon {
-  cursor: pointer;
-  font-size: 1.2em;
-}
-
-body.dark .icon {
-  color: #eee8e1;
 }
 
 #back-to-top {
@@ -177,4 +181,78 @@ body.dark .icon {
 #back-to-top:hover {
 	background-color: #f1f1f1;
 	transform: translateY(-5px);
+}
+
+.liked {
+  color: red;
+}
+
+body.dark .liked {
+  color: red;
+}
+
+
+.bubble {
+  position: absolute;
+  background-color: rgba(221, 236, 240, 0.3); /* Transparent bubble */
+  border-radius: 50%;
+  pointer-events: none;
+  animation: moveUp 5s linear infinite;
+  z-index: -1; /* Ensure bubbles are behind all page content */
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-200vh);
+  }
+}
+
+footer {
+  background-color: #f8f8f79e ;
+  padding: 20px 0;
+  margin-top: 30px;
+  text-size-adjust: bold;
+  border: rgb(228, 190, 124) 2px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+  max-height: 300px;
+}
+
+.footer-container h3 {
+  margin-bottom: 10px;
+  font-family: 'Merriweather', serif;
+  text-size-adjust: bold;
+}
+
+.footer-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-link i {
+  margin-right: 8px;
+}
+
+.footer-link:hover {
+  color: #000000;
+  text-decoration:none;
+  transition: 0.1s ease;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
 }
