@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Fetch the data from data.json
+  
   fetch("data.json")
     .then((response) => response.json())
     .then((data) => {
@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Shuffle the quotes array
       const shuffledQuotes = data.quotes.sort(() => Math.random() - 0.5);
+
+      
+      let likedQuotes = JSON.parse(localStorage.getItem("likedQuotes")) || [];
 
       // Iterate over the shuffled quotes
       shuffledQuotes.forEach((quoteData) => {
@@ -46,10 +49,20 @@ document.addEventListener("DOMContentLoaded", function () {
         const voiceIcon = document.createElement("i");
         voiceIcon.className = "icon fas fa-volume-up"; // FontAwesome voice icon
 
+       
+        const likeIcon = document.createElement("i");
+        likeIcon.className = "icon fas fa-heart"; 
+
+        
+        if (likedQuotes.includes(quoteText.textContent)) {
+          likeIcon.classList.add("liked"); 
+        }
+
         // Append icons to the container
         iconsContainer.appendChild(copyIcon);
         iconsContainer.appendChild(shareIcon);
-        iconsContainer.appendChild(voiceIcon); // Append voice icon
+        iconsContainer.appendChild(voiceIcon);
+        iconsContainer.appendChild(likeIcon); 
 
         // Append elements to the quote block
         quoteBlock.appendChild(quoteText);
@@ -60,27 +73,23 @@ document.addEventListener("DOMContentLoaded", function () {
         // Append the quote block to the container
         quotesContainer.appendChild(quoteBlock);
 
-       // Copy functionality
-copyIcon.addEventListener("click", function () {
-  navigator.clipboard
-    .writeText(quoteText.textContent + " " + quoteAuthor.textContent)
-    .then(() => {
-      
+        // Copy functionality
+        copyIcon.addEventListener("click", function () {
+          navigator.clipboard
+            .writeText(quoteText.textContent + " " + quoteAuthor.textContent)
+            .then(() => {
+              // Change the copy icon to a checkmark
+              copyIcon.className = "icon fas fa-check";
 
-      // Change the copy icon to a checkmark
-      copyIcon.className = "icon fas fa-check";
-
-      // Optional: Revert the icon back to copy after a delay (e.g., 2 seconds)
-      setTimeout(() => {
-        copyIcon.className = "icon fas fa-copy";
-      }, 2000);
-
-    })
-    .catch((err) => {
-      console.log("Error copying text: ", err);
-    });
-});
-
+              // Optional: Revert the icon back to copy after a delay (e.g., 2 seconds)
+              setTimeout(() => {
+                copyIcon.className = "icon fas fa-copy";
+              }, 2000);
+            })
+            .catch((err) => {
+              console.log("Error copying text: ", err);
+            });
+        });
 
         // Share functionality
         shareIcon.addEventListener("click", function () {
@@ -103,28 +112,40 @@ copyIcon.addEventListener("click", function () {
             `${quoteText.textContent} by ${quoteAuthor.textContent}`
           );
           speechSynthesis.speak(utterance);
-        }); 
+        });
+
+        
+        likeIcon.addEventListener("click", function () {
+          if (likeIcon.classList.contains("liked")) {
+            likeIcon.classList.remove("liked");
+            likedQuotes = likedQuotes.filter((quote) => quote !== quoteText.textContent);
+          } else {
+            likeIcon.classList.add("liked");
+            likedQuotes.push(quoteText.textContent);
+          }
+          localStorage.setItem("likedQuotes", JSON.stringify(likedQuotes));
+        });
       });
     })
     .catch((error) => {
       console.error("Error fetching the JSON data:", error);
     });
 
-    // 'Back to top' button functionality
-    const backToTopButton = document.getElementById("back-to-top");
-    backToTopButton.addEventListener("click", function() {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
+  // 'Back to top' button functionality
+  const backToTopButton = document.getElementById("back-to-top");
+  backToTopButton.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
     });
+  });
 
-    // Show the 'back to top' button when the user scrolls down
-    window.addEventListener("scroll", function() {
-      if (window.scrollY > 100) {
-        backToTopButton.style.display = "block";
-      } else {
-        backToTopButton.style.display = "none";
-      }
-    });
+  // Show the 'back to top' button when the user scrolls down
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 100) {
+      backToTopButton.style.display = "block";
+    } else {
+      backToTopButton.style.display = "none";
+    }
+  });
 });
