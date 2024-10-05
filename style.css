@@ -132,29 +132,8 @@ body.dark .quote-source {
   color: #ebdfd1;
 }
 
-body.dark .github-link{
-  background-color: white;
-  border-radius: 50px;
-}
-
 body.dark h2{
     color: #ddd;
-}
-
-.icons-container {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  display: flex;
-  gap: 10px;
-}
-.icon {
-  cursor: pointer;
-  font-size: 1.2em;
-}
-
-body.dark .icon {
-  color: #eee8e1;
 }
 
 #back-to-top {
@@ -179,15 +158,33 @@ body.dark .icon {
 	transform: translateY(-5px);
 }
 
+
+.bubble {
+  position: absolute;
+  background-color: rgba(221, 236, 240, 0.3); /* Transparent bubble */
+  border-radius: 50%;
+  pointer-events: none;
+  animation: moveUp 5s linear infinite;
+  z-index: -1; /* Ensure bubbles are behind all page content */
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-200vh);
+  }
+}
+
 footer {
   background-color: #f8f8f79e ;
   padding: 20px 0;
   margin-top: 30px;
   text-size-adjust: bold;
-  border: solid rgb(228, 190, 124) 2px;
+  border: rgb(228, 190, 124) 2px;
   text-align: center;
   border-radius: 12px;
-  
 }
 
 .footer-container {
@@ -205,19 +202,17 @@ footer {
 .footer-link {
   color: #333;
   text-decoration: none;
-  font-family: 'Merriweather', serif;
 }
 
 .footer-link i {
   margin-right: 8px;
-  
 }
 
 .footer-link:hover {
-  color: #2d5fa9;
+  color: #000000;
   text-decoration:none;
-  font-size: 17px;
   transition: 0.1s ease;
+  font-size: 18px;
 }
 
 ul {
