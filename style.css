@@ -179,6 +179,26 @@ body.dark .icon {
 	transform: translateY(-5px);
 }
 
+
 .liked {
   color: red;
+}
+
+.bubble {
+  position: absolute;
+  background-color: rgba(221, 236, 240, 0.3); /* Transparent bubble */
+  border-radius: 50%;
+  pointer-events: none;
+  animation: moveUp 5s linear infinite;
+  z-index: -1; /* Ensure bubbles are behind all page content */
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-200vh);
+  }
+
 }
