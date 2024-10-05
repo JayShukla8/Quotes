@@ -178,3 +178,22 @@ body.dark .icon {
 	background-color: #f1f1f1;
 	transform: translateY(-5px);
 }
+
+
+.bubble {
+  position: absolute;
+  background-color: rgba(221, 236, 240, 0.3); /* Transparent bubble */
+  border-radius: 50%;
+  pointer-events: none;
+  animation: moveUp 5s linear infinite;
+  z-index: -1; /* Ensure bubbles are behind all page content */
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-200vh);
+  }
+}
