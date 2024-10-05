@@ -182,7 +182,7 @@ body.dark .icon {
 
 .bubble {
   position: absolute;
-  background-color: rgba(152, 123, 123, 0.3); /* Transparent bubble */
+  background-color: rgba(221, 236, 240, 0.3); /* Transparent bubble */
   border-radius: 50%;
   pointer-events: none;
   animation: moveUp 5s linear infinite;
