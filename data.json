@@ -1,16 +1,6 @@
 {
    "quotes": [
       {
-         "quote": "If you don't kill your distractions, distractions will kill your dreams.",
-         "author:": "Eric Thomas",
-         "source": "You Owe You"
-      },
-      {
-         "quote": "Whatever you decide, be confident enough in it that you don’t have to lie",
-         "author": "Eric Thomas",
-         "source": "You Owe You"
-      },
-      {
          "quote": "What's Life without a little risk?",
          "author": "Sirius Black",
          "source": "Order of the Phoenix"
@@ -349,6 +339,11 @@
          "quote": "We can know only that we know nothing. And that is the highest degree of human wisdom.",
          "author": "Leo Tolstoy",
          "source": "War and Peace, 1869"
+      },
+      {
+         "quote": "If you don't kill your distractions, distractions will kil your dreams",
+         "author": "Eric Thomas",
+         "source": "You Owe You"
       }
    ]
 }
