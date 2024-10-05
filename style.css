@@ -180,6 +180,10 @@ body.dark .icon {
 }
 
 
+.liked {
+  color: red;
+}
+
 .bubble {
   position: absolute;
   background-color: rgba(221, 236, 240, 0.3); /* Transparent bubble */
@@ -196,4 +200,5 @@ body.dark .icon {
   100% {
     transform: translateY(-200vh);
   }
+
 }
