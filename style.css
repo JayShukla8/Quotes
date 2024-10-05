@@ -107,6 +107,31 @@ body {
   vertical-align: middle;
 }
 
+.icons-container {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+.icon {
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.icon:hover {
+  color: gray;
+}
+
+
+body.dark .icon {
+  color: #eee8e1;
+}
+
+body.dark .icon:hover {
+  color: gray;
+}
+
 body.dark {
   background: 
     linear-gradient(to bottom, #000000, #1a1a4b, #4b0082, #000d33),
@@ -156,6 +181,14 @@ body.dark h2{
 #back-to-top:hover {
 	background-color: #f1f1f1;
 	transform: translateY(-5px);
+}
+
+.liked {
+  color: red;
+}
+
+body.dark .liked {
+  color: red;
 }
 
 
