@@ -1,8 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let bubblesEnabled = true;
+  let bubblesEnabled = false;
 
   const bubbleToggleButton = document.getElementById("bubble-toggle-button");
-  bubbleToggleButton.innerHTML = '<span style="font-size: 23px;border: none; margin: 0; padding: 0px">🚫</span>';
+  bubbleToggleButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="10" fill="lightblue" opacity="10"/>
+                    <circle cx="8" cy="8" r="4" fill="white" opacity="10"/>
+                </svg>`;
 
   function createBubble() {
       if (!bubblesEnabled) return;
