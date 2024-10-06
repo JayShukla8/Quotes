@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Create a container for icons
         const iconsContainer = document.createElement("div");
         iconsContainer.style.width = "100%";
-        iconsContainer.style.position = "relative";
+        // iconsContainer.style.position = "relative";
         iconsContainer.className = "icons-container";
 
         const iconsWrapper = document.createElement("div");
