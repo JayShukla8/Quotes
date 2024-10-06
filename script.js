@@ -53,6 +53,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const likeIcon = document.createElement("i");
         likeIcon.className = "icon fas fa-heart"; 
 
+        const saveImageIcon = document.createElement("i");
+        saveImageIcon.className = "icon fas fa-image";
+        saveImageIcon.title = "Save as Image";
         
         if (likedQuotes.includes(quoteText.textContent)) {
           likeIcon.classList.add("liked"); 
@@ -63,6 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
         iconsContainer.appendChild(shareIcon);
         iconsContainer.appendChild(voiceIcon);
         iconsContainer.appendChild(likeIcon); 
+        iconsContainer.appendChild(saveImageIcon); 
 
         // Append elements to the quote block
         quoteBlock.appendChild(quoteText);
@@ -124,6 +128,10 @@ document.addEventListener("DOMContentLoaded", function () {
             likedQuotes.push(quoteText.textContent);
           }
           localStorage.setItem("likedQuotes", JSON.stringify(likedQuotes));
+        });
+
+        saveImageIcon.addEventListener("click", function () {
+          saveQuoteAsImage(quoteBlock);
         });
       });
     })
