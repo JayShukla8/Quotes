@@ -16,11 +16,10 @@ body {
 }
 
 #quotes-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 25px;
 }
 
 .quote-block {
@@ -191,6 +190,14 @@ body.dark .liked {
   color: red;
 }
 
+.liked:hover {
+  color: red;
+}
+
+body.dark .liked:hover {
+  color: red;
+}
+
 
 .bubble {
   position: absolute;
@@ -255,4 +262,33 @@ ul {
 
 li {
   margin: 10px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  #quotes-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  #quotes-container {
+    grid-template-columns: 1fr;
+  }
+
+  .quote-block {
+    padding: 10px;
+  }
+
+  .quote-text {
+    font-size: 1em;
+  }
+
+  .quote-author {
+    font-size: 0.9em;
+  }
+
+  .quote-source {
+    font-size: 0.8em;
+  }
 }
