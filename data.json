@@ -12,13 +12,13 @@
     },
     {
       "quote": "Winners are not afraid of losing. But losers are. Failure is part of the process of success. People who avoid failure also avoid success.",
-      "author":"Robert Kiyosaki",
-      "source":"Rich dad,Poor dad"
+      "author": "Robert Kiyosaki",
+      "source": "Rich dad,Poor dad"
     },
     {
       "quote": "Success is a lousy teacher. It seduces smart people into thinking they can't lose",
-      "author":"Morgan Housel",
-      "source":"The Psycology Of Money"
+      "author": "Morgan Housel",
+      "source": "The Psycology Of Money"
     },
     {
       "quote": "What's Life without a little risk?",
@@ -26,9 +26,9 @@
       "source": "Order of the Phoenix"
     },
     {
-    "text": "The only way to get ahead is to start.",
-    "author": "Steven Bartlett",
-    "source": "The Diary of a CEO"
+      "text": "The only way to get ahead is to start.",
+      "author": "Steven Bartlett",
+      "source": "The Diary of a CEO"
     },
     {
       "text": "Not all those who wander are lost.",
@@ -111,17 +111,16 @@
       "source": "Sahih al-Bukhari"
     },
     {
-        "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
-        "author": "Buddha",
-        "source": "The Dhammapada"
+      "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+      "author": "Buddha",
+      "source": "The Dhammapada"
     },
     {
-        "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-        "author": "Nelson Mandela",
-        "source": "Long Walk to Freedom"
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "source": "Long Walk to Freedom"
     },
 
-     
     {
       "quote": "That's one small step for a man, one giant leap for mankind.",
       "author": "Neil Armstrong",
@@ -133,14 +132,14 @@
       "source": "Naruto Shippuden"
     },
     {
-        "quote": "No one saves us but ourselves. No one can and no one may. We ourselves must walk the path",
-        "author": "Gautama Buddha",
-        "source": "The Dhammapada"
+      "quote": "No one saves us but ourselves. No one can and no one may. We ourselves must walk the path",
+      "author": "Gautama Buddha",
+      "source": "The Dhammapada"
     },
     {
-        "quote": "Peace comes from within.  Do not seek it without",
-        "author": "Gautama Buddha",
-        "source": "The Dhammapada"
+      "quote": "Peace comes from within.  Do not seek it without",
+      "author": "Gautama Buddha",
+      "source": "The Dhammapada"
     },
     {
       "quote": "The happiness of your life depends upon the quality of your thoughts.",
@@ -148,29 +147,29 @@
       "source": "Meditations, Book 4, Chapter 3"
     },
     {
-        "quote": "The world is a transient place, not a place of stay.",
-        "author": "Hazrat Ali",
-        "source": "Nahj Al-Balaghah Vol.2"
+      "quote": "The world is a transient place, not a place of stay.",
+      "author": "Hazrat Ali",
+      "source": "Nahj Al-Balaghah Vol.2"
     },
     {
-      "quote":"If a man hasn't discovered something that he will die for, he is'nt fit to live.",
-      "author":"Martin Luther King Jr.",
-      "source":"Martin Luther King Jr.'s detroit speech"
+      "quote": "If a man hasn't discovered something that he will die for, he is'nt fit to live.",
+      "author": "Martin Luther King Jr.",
+      "source": "Martin Luther King Jr.'s detroit speech"
     },
     {
-      "quote":"Reach high, for stars lie hidden in you. Dream deep, for every dream precedes the goal.",
-      "author":"Rabindranath Tagore",
-      "source":"Words of Rabindranath tagore"
-    },    
+      "quote": "Reach high, for stars lie hidden in you. Dream deep, for every dream precedes the goal.",
+      "author": "Rabindranath Tagore",
+      "source": "Words of Rabindranath tagore"
+    },
     {
       "quote": "Do not let circumstances control you. You change your circumstances.",
       "author": "Jackie Chan",
       "source": "Jackie Chan: My Stunts"
     },
     {
-        "quote": "One who is equal in both success and failure is truly wise.",
-        "author": "Lord Krishna",
-        "source": "Bhagavad Gita - Chapter 2, Verse 48"
+      "quote": "One who is equal in both success and failure is truly wise.",
+      "author": "Lord Krishna",
+      "source": "Bhagavad Gita - Chapter 2, Verse 48"
     },
     {
       "quote": "Words are, in my not so humble opinion, our most inexhaustible source of magic, capable of both influencing injury, and remedying it.",
@@ -236,7 +235,7 @@
       "quote": "And those who were seen dancing were thought to be insane by those who could not hear the music",
       "author": "Friedrich Nietzsche",
       "source": "Thus Spoke Zarathustra"
-    },  
+    },
     {
       "quote": "Difficulties increase the nearer we get to the goal.",
       "author": "Johann Wolfgang von Goethe",
@@ -253,9 +252,9 @@
       "source": "Roosevelt's documented speeches or writings "
     },
     {
-      "quote":"It takes a mighty good man to be better than no man at all",
-      "author":"Dixie Carter",
-      "source":"Speech, 1941"
+      "quote": "It takes a mighty good man to be better than no man at all",
+      "author": "Dixie Carter",
+      "source": "Speech, 1941"
     },
     {
       "quote": "A truth can never be destroyed. One should not be afraid of doing good",
@@ -263,8 +262,8 @@
       "source": "Bhagavad Gita"
     },
     {
-      "quote": "You miss 100% of the shots you don’t take.", 
-      "author": "Wayne Gretzky", 
+      "quote": "You miss 100% of the shots you don’t take.",
+      "author": "Wayne Gretzky",
       "source": "Interview with Sport Illustrated"
     },
     {
@@ -278,14 +277,19 @@
       "source": "hubspot"
     },
     {
-       "quote": "Don't be the bare minimum guy",
-       "author": "Harkirat Singh",
-       "source": "Youtube Video"
-     },
+      "quote": "Don't be the bare minimum guy",
+      "author": "Harkirat Singh",
+      "source": "Youtube Video"
+    },
     {
-       "quote": "It is not our abilities that show what we truly are... it is our choices.",
-       "author": "J.K. Rowling",
-       "source": "Harry Potter and the Chamber of Secrets (1998)"
-     }
+      "quote": "It is not our abilities that show what we truly are... it is our choices.",
+      "author": "J.K. Rowling",
+      "source": "Harry Potter and the Chamber of Secrets (1998)"
+    },
+    {
+      "quote": "In the middle of every difficulty lies opportunity.",
+      "author": "Albert Einstein",
+      "source": "goodreads"
+    }
   ]
 }
