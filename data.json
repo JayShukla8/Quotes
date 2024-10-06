@@ -16,6 +16,11 @@
       "source":"Rich dad,Poor dad"
     },
     {
+      "quote": "Success is a lousy teacher. It seduces smart people into thinking they can't lose",
+      "author":"Morgan Housel",
+      "source":"The Psycology Of Money"
+    },
+    {
       "quote": "What's Life without a little risk?",
       "author": "Sirius Black",
       "source": "Order of the Phoenix"
@@ -258,9 +263,29 @@
       "source": "Bhagavad Gita"
     },
     {
+      "quote": "You miss 100% of the shots you don’t take.", 
+      "author": "Wayne Gretzky", 
+      "source": "Interview with Sport Illustrated"
+    },
+    {
       "quote": "Let the young man in his desperation go out and hunt. If he kills the elephant, his poverty ends. If the elephant kills him, his poverty ends",
       "author": "Pete Edochie",
       "source": "Nigeria Stories"
-    }
+    },
+    {
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "source": "hubspot"
+    },
+    {
+       "quote": "Don't be the bare minimum guy",
+       "author": "Harkirat Singh",
+       "source": "Youtube Video"
+     },
+    {
+       "quote": "It is not our abilities that show what we truly are... it is our choices.",
+       "author": "J.K. Rowling",
+       "source": "Harry Potter and the Chamber of Secrets (1998)"
+     }
   ]
 }
