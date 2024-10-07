@@ -6,6 +6,11 @@
       "source": "The Letters of a Stoic"
     },
     {
+      "quote": "Professionals stick to the schedule; amateurs let life get in the way",
+      "author": "James Clear",
+      "source": "Atomic Habits"
+    },
+    {
       "quote": "Adoration is the state furthest away from understanding",
       "author": "Aizen Sosuke",
       "source": "Bleach"
@@ -291,6 +296,21 @@
       "quote": " Whatever happened, happened for the good. Whatever is happening, is happening for the good. Whatever will happen will happen for good",
       "author": "Lord Krishna",
       "source": "The Holy Geetā"
+    },
+    {
+      "quote":"In the middle of every difficulty lies opportunity.", 
+      "author":"Albert Einstein", 
+      "source":"goodreads"
+    },
+    {
+      "quote": "Life can only be understood backwards; but it must be lived forwards.",
+      "author": "Søren Kierkegaard",
+      "source": "The Journals of Soren Kierkegaard (1844)"
+    },
+    {
+      "quote": "Never let your sense of morals prevent you from doing what is right.",
+      "author": "Isaac Asimov",
+      "source": "Foundation"
     }
   ]
 }
