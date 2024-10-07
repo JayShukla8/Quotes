@@ -108,11 +108,11 @@ document.addEventListener("DOMContentLoaded", function () {
               // Change the copy icon to a checkmark
               copyIcon.className = "icon fas fa-check";
 
-              // Optional: Revert the icon back to copy after a delay (e.g., 2 seconds)
+              // Optional: Revert the icon back to copy after a delay (e.g., 10 seconds)
               setTimeout(() => {
                 copyIcon.className = "icon fas fa-copy";
                 iconsContainer.classList.toggle("icons-container");
-              }, 2000);
+              }, 10000);
               s
             })
             .catch((err) => {
