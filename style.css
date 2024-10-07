@@ -32,7 +32,6 @@ body {
   max-width: 100%;
   box-sizing: border-box;
   position: relative;
-  padding-right: 80px;
   box-shadow: 2px 2px 8px transparent;
   transform: scale(0);
   opacity: 0.32;
@@ -40,9 +39,43 @@ body {
   transition: box-shadow 250ms ease-in-out, scale 250ms ease-in-out;
   animation: quote-reveal linear forwards;
   animation-timeline: view(block);
-  animation-range: entry-crossing calc(0% - 10svh) entry-crossing calc(100% + 10svh);
-  }
-  
+  animation-range: entry-crossing calc(0% - 10svh) entry-crossing
+    calc(100% + 10svh);
+}
+
+.card-top {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.toggle-icon {
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.toggle-icon:hover {
+  color: gray;
+}
+
+body.dark .toggle-icon {
+  color: #eee8e1;
+}
+
+body.dark .toggle-icon:hover {
+  color: gray;
+}
+
+.card-bottom {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .quote-block:hover {
   box-shadow: 3px 3px #44423f;
   background-color: rgb(237, 229, 225);
@@ -107,12 +140,30 @@ body {
 }
 
 .icons-container {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  display: flex;
-  gap: 10px;
+  display: none;
 }
+
+.icons-wrapper {
+  position: absolute;
+  top: 50px;
+  right: 8px;
+  display: flex;
+  padding: 10px;
+  background-color: rgb(237, 229, 225);
+  box-shadow: 10px 10px 81px 0px rgba(152,151,150,0.75);
+-webkit-box-shadow: 10px 10px 81px 0px rgba(152,151,150,0.75);
+-moz-box-shadow: 10px 10px 81px 0px rgba(152,151,150,0.75);
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px;
+}
+
+body.dark .icons-wrapper{
+  background-color: #484e52;
+}
+
 .icon {
   cursor: pointer;
   font-size: 1.2em;
@@ -121,7 +172,6 @@ body {
 .icon:hover {
   color: gray;
 }
-
 
 body.dark .icon {
   color: #eee8e1;
