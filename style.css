@@ -53,6 +53,19 @@ body {
 
 .toggle-icon {
   cursor: pointer;
+  padding-left: 10px;
+}
+
+.toggle-icon:hover {
+  color: gray;
+}
+
+body.dark .toggle-icon {
+  color: #eee8e1;
+}
+
+body.dark .toggle-icon:hover {
+  color: gray;
 }
 
 .card-bottom {
@@ -129,6 +142,7 @@ body {
 .icons-container {
   display: none;
 }
+
 .icons-wrapper {
   position: absolute;
   top: 50px;
@@ -142,8 +156,14 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   gap: 15px;
-
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px;
 }
+
+body.dark .icons-wrapper{
+  background-color: #484e52;
+}
+
 .icon {
   cursor: pointer;
   font-size: 1.2em;
@@ -152,7 +172,6 @@ body {
 .icon:hover {
   color: gray;
 }
-
 
 body.dark .icon {
   color: #eee8e1;
