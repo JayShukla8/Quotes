@@ -67,14 +67,25 @@ document.addEventListener("DOMContentLoaded", function () {
         const ellipsisIcon = document.createElement("i");
         ellipsisIcon.className = "toggle-icon fa-solid fa-ellipsis-vertical";
 
+        const saveImageIcon = document.createElement("i");
+        saveImageIcon.className = "icon fas fa-image";
+        saveImageIcon.title = "Save as Image";
+        
+
         if (likedQuotes.includes(quoteText.textContent)) {
           likeIcon.classList.add("liked");
         }
 
         // Append icons to the container
+        iconsContainer.appendChild(copyIcon);
+        iconsContainer.appendChild(shareIcon);
+        iconsContainer.appendChild(voiceIcon);
+        iconsContainer.appendChild(likeIcon); 
+        iconsContainer.appendChild(saveImageIcon); 
         iconsWrapper.appendChild(copyIcon);
         iconsWrapper.appendChild(shareIcon);
         iconsWrapper.appendChild(voiceIcon);
+        iconsWrapper.appendChild(saveImageIcon);
         iconsContainer.appendChild(iconsWrapper);
 
         // Append like icon and source text to card bottom
@@ -162,6 +173,10 @@ document.addEventListener("DOMContentLoaded", function () {
             likedQuotes.push(quoteText.textContent);
           }
           localStorage.setItem("likedQuotes", JSON.stringify(likedQuotes));
+        });
+
+        saveImageIcon.addEventListener("click", function () {
+          saveQuoteAsImage(quoteBlock);
         });
       });
     })
