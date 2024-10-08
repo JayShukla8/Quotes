@@ -20,7 +20,6 @@
       "author": "Robert Frost",
       "source": "The Poetry of Robert Frost"
     },
-
     {
       "quote": "Winners are not afraid of losing. But losers are. Failure is part of the process of success. People who avoid failure also avoid success.",
       "author":"Robert Kiyosaki",
@@ -37,14 +36,9 @@
       "source": "Order of the Phoenix"
     },
     {
-    "text": "The only way to get ahead is to start.",
-    "author": "Steven Bartlett",
-    "source": "The Diary of a CEO"
-    },
-    {
-      "text": "Not all those who wander are lost.",
-      "author": "J.R.R. Tolkien",
-      "source": "The Fellowship of the Ring"
+      "text": "The only way to get ahead is to start.",
+      "author": "Steven Bartlett",
+      "source": "The Diary of a CEO"
     },
     {
       "quote": "Batter my heart, three-person'd God,",
@@ -55,11 +49,6 @@
       "quote": "Most people are, Scout, when you finally see them.",
       "author": "Atticus Finch",
       "source": "To Kill a Mockingbird"
-    },
-    {
-      "quote": "Now I am become death, the destroyer of Worlds.",
-      "author": "Krishn",
-      "source": "The Holy Geetā"
     },
     {
       "quote": "No real change in history has ever been achieved by discussions.",
@@ -131,8 +120,6 @@
         "author": "Nelson Mandela",
         "source": "Long Walk to Freedom"
     },
-
-     
     {
       "quote": "That's one small step for a man, one giant leap for mankind.",
       "author": "Neil Armstrong",
@@ -270,7 +257,7 @@
     },
     {
       "quote": "A truth can never be destroyed. One should not be afraid of doing good",
-      "author": "shree krishna",
+      "author": "Shree Krishna",
       "source": "Bhagavad Gita"
     },
     {
@@ -282,11 +269,6 @@
       "quote": "Let the young man in his desperation go out and hunt. If he kills the elephant, his poverty ends. If the elephant kills him, his poverty ends",
       "author": "Pete Edochie",
       "source": "Nigeria Stories"
-    },
-    {
-      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-      "author": "Nelson Mandela",
-      "source": "hubspot"
     },
     {
        "quote": "Don't be the bare minimum guy",
@@ -334,9 +316,9 @@
       "source": "Foundation"
     },
     {
-        "quote": "I hold the world but as the world, Gratiano, A stage where every man must play a part, And mine a sad one.",
-        "author": "Antonio, Act 1 Scene 1",
-        "source": "The Merchant of Venice- William Shakespeare"
+      "quote": "I hold the world but as the world, Gratiano, A stage where every man must play a part, And mine a sad one.",
+      "author": "Antonio, Act 1 Scene 1",
+      "source": "The Merchant of Venice- William Shakespeare"
      }
   ]
 }
