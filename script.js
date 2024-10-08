@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
         iconsWrapper.appendChild(copyIcon);
         iconsWrapper.appendChild(shareIcon);
         iconsWrapper.appendChild(voiceIcon);
+        iconsWrapper.appendChild(saveImageIcon);
         iconsContainer.appendChild(iconsWrapper);
 
         // Append like icon and source text to card bottom
