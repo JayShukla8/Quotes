@@ -1,10 +1,10 @@
 {
   "quotes": [
     {
-      "quote": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed no hope at all."
-      "author": "Dale Carnegie"
+      "quote": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed no hope at all.",
+      "author": "Dale Carnegie",
       "source": "Good Reads"
-    }
+    },
     {
       "quote": "To be everywhere is to be nowhere.",
       "author": "Seneca",
@@ -329,6 +329,12 @@
       "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
       "author": "Franklin D. Roosevelt",
       "source": "Speech in 1945"
+    },
+    {
+      "quote": "The only thing we have to fear is fear itself.",
+      "author": "Franklin D. Roosevelt",
+      "source": "First Inaugural Address, 1933"
     }
+    
   ]
 }
