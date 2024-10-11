@@ -2,9 +2,12 @@ body {
   background: radial-gradient(circle at 20% 15%, rgba(223, 177, 131, 0.5), transparent 60%),
   radial-gradient(circle at 80% 30%, rgba(143, 117, 92, 0.4), transparent 70%),
   linear-gradient(to bottom, #d2b891, #b7986d, #d0ae85),url(images/stains.png);
-  background-position: center;
+  background-position: top;
   background-blend-mode: multiply;
-  background-size: 700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: 700px; */
+  background-size: cover;
   padding: 20px;
   padding-bottom: 10svh;
 }
@@ -342,3 +345,22 @@ li {
     font-size: 0.8em;
   }
 }
+#tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+  margin: 20px 0; 
+  padding: 10px; 
+  background-color: #f4f4f4; 
+  border-radius: 6px; 
+}
+
+#tags .tag {
+  color: white; 
+  padding: 5px 10px; 
+  border-radius: 5px;
+  font-size: 14px; 
+  cursor:grab;
+  transition: background-color 0.3s ease;
+}
+

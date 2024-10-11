@@ -19,8 +19,11 @@
 </head>
 
 <body class="merriweather-light">
-  <div style="display: flex; justify-content: space-between; align-items: center; backdrop-filter: blur(30px); border: 2px solid #483f3a; border-radius: 50px; padding-left: 10px; padding-right: 10px;">
+  <div style="display: flex; justify-content: space-between; align-items: center; backdrop-filter: blur(30px); border: 2px solid #483f3a; border-radius: 50px; padding-left: 10px; padding-right: 10px; position: sticky; top: 1rem; z-index: 20;">
     <h2>Quotes.</h2>
+    <select id="tags">
+      <option value="null">All</option>
+    </select>
       <div style="display: flex; align-items: center;">
         <button id="mode-button" class="mode-button">
           <span id="sun-icon" class="mode-icon" style="display: none;">🌞</span>
@@ -46,7 +49,7 @@
 
   <!-- Footer -->
   <footer>
-    <div class="footer-container">
+    <div class="footer-container ">
       <h3>Resources</h3>
       <ul>
         <li>
