@@ -31,34 +31,49 @@ const fetchQuotes = () => {
       // Shuffle the quotes array
       const shuffledQuotes = data.sort((a) => {
         tags.add(...a.tags);
-        return Math.random() - 0.5
+        return Math.random() - 0.5;
       });
-
 
       const select = document.getElementById("tags");
 
+      // Add the "All" option first
+      const allOption = document.createElement('option');
+      allOption.value = "all";
+      allOption.textContent = "All";
+      select.appendChild(allOption);
+
+      // Populate the select dropdown with unique tags
       Array.from(tags).forEach((val) => {
         const option = document.createElement('option');
         option.value = val;
         option.textContent = val;
-        select.appendChild(option)
-      })
+        select.appendChild(option);
+      });
 
       select.onchange = (e) => {
-        const tag =  e.target.value;
-        const newquotes = shuffledQuotes.filter((quote) => {
-          return quote.tags.some((v) => v === tag)
-        })
-        renderQuotes(newquotes)
-      }
+        const tag = e.target.value;
+        
+        // If "All" is selected, render all quotes
+        if (tag === "all") {
+          renderQuotes(shuffledQuotes);
+        } else {
+          // Filter the quotes by the selected tag
+          const newQuotes = shuffledQuotes.filter((quote) => {
+            return quote.tags.some((v) => v === tag);
+          });
+          renderQuotes(newQuotes);
+        }
+      };
 
-      renderQuotes(shuffledQuotes)
+      // Initially render all shuffled quotes
+      renderQuotes(shuffledQuotes);
 
     })
     .catch((error) => {
       console.error("Error fetching the JSON data:", error);
     });
-}
+};
+
 
 const renderQuotes = (shuffledQuotes) => {
   const quotesContainer = document.getElementById("quotes-container");
