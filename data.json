@@ -646,5 +646,66 @@
         "author": "Franklin D. Roosevelt",
         "source": "Speech in 1945",
         "tags": ["doubt", "potential", "future"]
+      },
+      {
+        "quote": "You pierce my soul. I'm half agony, half hope... I have loved none but you.",
+        "author": "Jane Austen",
+        "source": "Persuasion",
+        "tags": ["love"]
+      },
+      {
+        "quote":"If you can meet with Triumph and Disaster, And treat those two imposters just the same.",
+        "author":"Rudyard Kipling",
+        "source":"If",
+        "tags":["life","truth","actions","character","contentment"]
+      },
+      {
+        "quote": "It is never too late to be what you might have been.",
+        "author": "George Eliot",
+        "source": "Unknown",
+        "tags": ["inspiration", "self-improvement", "motivation"]
+      },
+      {
+        "quote": "Not all those who wander are lost.",
+        "author": "J.R.R. Tolkien",
+        "source": "The Fellowship of the Ring",
+        "tags": ["adventure", "life", "journey"]
+      },
+      {
+        "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+        "author": "Ralph Waldo Emerson",
+        "source": "Unknown",
+        "tags": ["individuality", "leadership", "courage"]
+      },
+      {
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs",
+        "source": "Stanford Commencement Speech",
+        "tags": ["work", "passion", "success"]
+      },
+      {
+        "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+        "author": "Robert Frost",
+        "source": "Unknown",
+        "tags": ["life", "resilience", "wisdom"]
+      },
+      {
+        "quote": "It does not do to dwell on dreams and forget to live.",
+        "author": "J.K. Rowling",
+        "source": "Harry Potter and the Sorcerer's Stone",
+        "tags": ["life", "reality", "wisdom"]
+      },
+      {
+        "quote": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt",
+        "source": "Unknown",
+        "tags": ["dreams", "future", "hope"]
+      },
+      {
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill",
+        "source": "Unknown",
+        "tags": ["success", "perseverance", "courage"]
       }
+      
 ]
