@@ -24,11 +24,7 @@ const fetchQuotes = () => {
   fetch("data.json")
     .then((response) => response.json())
     .then((data) => {
-      // Get the container to display the quotes
-
       const tags = new Set();
-
-      // Shuffle the quotes array
       const shuffledQuotes = data.sort((a) => {
         tags.add(...a.tags);
         return Math.random() - 0.5;
@@ -42,13 +38,16 @@ const fetchQuotes = () => {
       allOption.textContent = "All";
       select.appendChild(allOption);
 
-      // Populate the select dropdown with unique tags
-      Array.from(tags).forEach((val) => {
-        const option = document.createElement('option');
-        option.value = val;
-        option.textContent = val;
-        select.appendChild(option);
-      });
+      // Populate the select dropdown with unique tags, capitalizing the first letter and sorting them
+      Array.from(tags)
+        .map(tag => tag.charAt(0).toUpperCase() + tag.slice(1)) // Capitalize the first letter
+        .sort() // Sort tags alphabetically
+        .forEach((val) => {
+          const option = document.createElement('option');
+          option.value = val.toLowerCase(); // Set value to lowercase to maintain consistency
+          option.textContent = val;
+          select.appendChild(option);
+        });
 
       select.onchange = (e) => {
         const tag = e.target.value;
@@ -59,7 +58,7 @@ const fetchQuotes = () => {
         } else {
           // Filter the quotes by the selected tag
           const newQuotes = shuffledQuotes.filter((quote) => {
-            return quote.tags.some((v) => v === tag);
+            return quote.tags.some((v) => v === tag.toLowerCase()); // Match case-insensitively
           });
           renderQuotes(newQuotes);
         }
@@ -67,12 +66,13 @@ const fetchQuotes = () => {
 
       // Initially render all shuffled quotes
       renderQuotes(shuffledQuotes);
-
     })
     .catch((error) => {
       console.error("Error fetching the JSON data:", error);
     });
 };
+
+
 
 
 const renderQuotes = (shuffledQuotes) => {
