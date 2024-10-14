@@ -19,6 +19,16 @@
             "presence"
         ]
     },
+        {
+        "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+        "author": "Albert Schweitzer",
+        "source": "Reverence for Life",
+        "tags": [
+            "wisdom",
+            "balance",
+            "equanimity"
+        ]
+    },
     {
         "quote": "Professionals stick to the schedule; amateurs let life get in the way.",
         "author": "James Clear",
@@ -651,13 +661,13 @@
         "quote": "You pierce my soul. I'm half agony, half hope... I have loved none but you.",
         "author": "Jane Austen",
         "source": "Persuasion",
-        "tags": ["love"]
+        "tags": ["love", "soul", "pain"]
       },
       {
         "quote":"If you can meet with Triumph and Disaster, And treat those two imposters just the same.",
         "author":"Rudyard Kipling",
         "source":"If",
-        "tags":["life","truth","actions","character","contentment"]
+        "tags":["life", "truth", "actions"]
       },
       {
         "quote": "It is never too late to be what you might have been.",
@@ -700,5 +710,11 @@
         "author": "Eleanor Roosevelt",
         "source": "Unknown",
         "tags": ["dreams", "future", "hope"]
+      },
+    {
+        "quote": "Life holds a potential meaning under any condition, even the most miserable ones. ",
+        "author": " Viktor Frankl",
+        "source": "Man's Search for Meaning- book",
+        "tags": ["life", "patience","survival"]
       }
 ]
