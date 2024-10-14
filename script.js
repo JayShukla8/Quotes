@@ -22,12 +22,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const fetchQuotes = () => {
   fetch("data.json")
-    .then((response) => response.json())
+    .then((response) => {
+      // Check if the response is okay
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
     .then((data) => {
       const tags = new Set();
-      const shuffledQuotes = data.sort((a) => {
-        tags.add(...a.tags);
-        return Math.random() - 0.5;
+      // Shuffle the quotes
+      const shuffledQuotes = data.sort(() => Math.random() - 0.5);
+
+      // Collect unique tags
+      shuffledQuotes.forEach((quote) => {
+        if (quote.tags) {
+          quote.tags.forEach((tag) => tags.add(tag.toLowerCase())); // Normalize tags to lowercase
+        }
       });
 
       const select = document.getElementById("tags");
@@ -57,9 +68,9 @@ const fetchQuotes = () => {
           renderQuotes(shuffledQuotes);
         } else {
           // Filter the quotes by the selected tag
-          const newQuotes = shuffledQuotes.filter((quote) => {
-            return quote.tags.some((v) => v === tag.toLowerCase()); // Match case-insensitively
-          });
+          const newQuotes = shuffledQuotes.filter((quote) => 
+            quote.tags && quote.tags.includes(tag.toLowerCase()) // Ensure tags exist
+          );
           renderQuotes(newQuotes);
         }
       };
@@ -72,12 +83,9 @@ const fetchQuotes = () => {
     });
 };
 
-
-
-
 const renderQuotes = (shuffledQuotes) => {
   const quotesContainer = document.getElementById("quotes-container");
-  quotesContainer.innerHTML = ""
+  quotesContainer.innerHTML = ""; // Clear previous quotes
 
   let likedQuotes = JSON.parse(localStorage.getItem("likedQuotes")) || [];
 
@@ -104,10 +112,9 @@ const renderQuotes = (shuffledQuotes) => {
 
     // Create a container for icons
     const iconsContainer = document.createElement("div");
-    iconsContainer.style.width = "100%";
-    // iconsContainer.style.position = "relative";
     iconsContainer.className = "icons-container";
 
+    // Create a container for icon buttons
     const iconsWrapper = document.createElement("div");
     iconsWrapper.className = "icons-wrapper";
 
@@ -119,52 +126,42 @@ const renderQuotes = (shuffledQuotes) => {
     const cardBottom = document.createElement("div");
     cardBottom.className = "card-bottom";
 
-    // Add copy icon
-    const copyIcon = document.createElement("i");
-    copyIcon.className = "icon fas fa-copy"; // FontAwesome copy icon
+    // Add copy, share, voice, like, and save image icons
+    const icons = {
+      copy: document.createElement("i"),
+      share: document.createElement("i"),
+      voice: document.createElement("i"),
+      like: document.createElement("i"),
+      saveImage: document.createElement("i"),
+      ellipsis: document.createElement("i")
+    };
 
-    // Add share icon
-    const shareIcon = document.createElement("i");
-    shareIcon.className = "icon fas fa-share"; // FontAwesome share icon
-
-    // Add voice icon
-    const voiceIcon = document.createElement("i");
-    voiceIcon.className = "icon fas fa-volume-up"; // FontAwesome voice icon
-
-    const likeIcon = document.createElement("i");
-    likeIcon.className = "icon fas fa-heart";
-
-    // Add ellipse icon
-    const ellipsisIcon = document.createElement("i");
-    ellipsisIcon.className = "toggle-icon fa-solid fa-ellipsis-vertical";
-
-    const saveImageIcon = document.createElement("i");
-    saveImageIcon.className = "icon fas fa-image";
-    saveImageIcon.title = "Save as Image";
-
+    icons.copy.className = "icon fas fa-copy"; // FontAwesome copy icon
+    icons.share.className = "icon fas fa-share"; // FontAwesome share icon
+    icons.voice.className = "icon fas fa-volume-up"; // FontAwesome voice icon
+    icons.like.className = "icon fas fa-heart";
+    icons.saveImage.className = "icon fas fa-image";
+    icons.saveImage.title = "Save as Image";
+    icons.ellipsis.className = "toggle-icon fa-solid fa-ellipsis-vertical";
 
     if (likedQuotes.includes(quoteText.textContent)) {
-      likeIcon.classList.add("liked");
+      icons.like.classList.add("liked");
     }
 
     // Append icons to the container
-    iconsContainer.appendChild(copyIcon);
-    iconsContainer.appendChild(shareIcon);
-    iconsContainer.appendChild(voiceIcon);
-    iconsContainer.appendChild(likeIcon);
-    iconsContainer.appendChild(saveImageIcon);
-    iconsWrapper.appendChild(copyIcon);
-    iconsWrapper.appendChild(shareIcon);
-    iconsWrapper.appendChild(voiceIcon);
-    iconsWrapper.appendChild(saveImageIcon);
+    Object.values(icons).forEach(icon => iconsContainer.appendChild(icon));
+    iconsWrapper.appendChild(icons.copy);
+    iconsWrapper.appendChild(icons.share);
+    iconsWrapper.appendChild(icons.voice);
+    iconsWrapper.appendChild(icons.saveImage);
     iconsContainer.appendChild(iconsWrapper);
 
     // Append like icon and source text to card bottom
     cardBottom.appendChild(quoteSource);
-    cardBottom.appendChild(likeIcon);
+    cardBottom.appendChild(icons.like);
 
     cardTop.appendChild(quoteText);
-    cardTop.appendChild(ellipsisIcon);
+    cardTop.appendChild(icons.ellipsis);
 
     // Append elements to the quote block
     quoteBlock.appendChild(cardTop);
@@ -172,52 +169,49 @@ const renderQuotes = (shuffledQuotes) => {
     quoteBlock.appendChild(quoteAuthor);
     quoteBlock.appendChild(cardBottom);
 
-    // quoteBlock.appendChild(quoteSource);
-
     // Append the quote block to the container
     quotesContainer.appendChild(quoteBlock);
 
-    // toggle functionality
-    ellipsisIcon.addEventListener("click", () => {
-      iconsContainer.classList.toggle("icons-container");
+    // Toggle functionality
+    icons.ellipsis.addEventListener("click", () => {
+      iconsContainer.classList.toggle("show"); // Toggle visibility of icons
     });
 
     // Copy functionality
-    copyIcon.addEventListener("click", function () {
+    icons.copy.addEventListener("click", function () {
       navigator.clipboard
-        .writeText(quoteText.textContent + " " + quoteAuthor.textContent)
+        .writeText(`${quoteText.textContent} ${quoteAuthor.textContent}`)
         .then(() => {
           // Change the copy icon to a checkmark
-          copyIcon.className = "icon fas fa-check";
+          icons.copy.className = "icon fas fa-check";
 
           // Optional: Revert the icon back to copy after a delay (e.g., 10 seconds)
           setTimeout(() => {
-            copyIcon.className = "icon fas fa-copy";
-            iconsContainer.classList.toggle("icons-container");
+            icons.copy.className = "icon fas fa-copy";
+            iconsContainer.classList.toggle("show");
           }, 10000);
-          s
         })
         .catch((err) => {
-          iconsContainer.classList.toggle("icons-container");
-          console.log("Error copying text: ", err);
+          iconsContainer.classList.toggle("show");
+          console.error("Error copying text: ", err);
         });
     });
 
     // Share functionality
-    shareIcon.addEventListener("click", function () {
+    icons.share.addEventListener("click", function () {
       if (navigator.share) {
         navigator
           .share({
-            title: "Quote", // Title for the shared content
-            text: `${quoteText.textContent} ${quoteAuthor.textContent}\n\nRead more at: ${window.location.href}`, // Combine the quote, author, and URL into one text field
+            title: "Quote",
+            text: `${quoteText.textContent} — ${quoteAuthor.textContent}\n\nRead more at: ${window.location.href}`,
           })
           .then(() => {
-            iconsContainer.classList.toggle("icons-container");
+            iconsContainer.classList.toggle("show");
             console.log("Quote shared!");
           })
           .catch((error) => {
-            iconsContainer.classList.toggle("icons-container");
-            console.log("Error sharing:", error);
+            iconsContainer.classList.toggle("show");
+            console.error("Error sharing:", error);
           });
       } else {
         alert("Sharing is not supported in this browser.");
@@ -225,29 +219,60 @@ const renderQuotes = (shuffledQuotes) => {
     });
 
     // Voice functionality
-    voiceIcon.addEventListener("click", function () {
+    icons.voice.addEventListener("click", function () {
       const utterance = new SpeechSynthesisUtterance(
         `${quoteText.textContent} by ${quoteAuthor.textContent}`
       );
       speechSynthesis.speak(utterance);
-      iconsContainer.classList.toggle("icons-container");
+      iconsContainer.classList.toggle("show");
     });
 
-    likeIcon.addEventListener("click", function () {
-      if (likeIcon.classList.contains("liked")) {
-        likeIcon.classList.remove("liked");
-        likedQuotes = likedQuotes.filter(
-          (quote) => quote !== quoteText.textContent
-        );
+    // Like functionality
+    icons.like.addEventListener("click", function () {
+      if (icons.like.classList.contains("liked")) {
+        icons.like.classList.remove("liked");
+        likedQuotes = likedQuotes.filter(quote => quote !== quoteText.textContent);
       } else {
-        likeIcon.classList.add("liked");
+        icons.like.classList.add("liked");
         likedQuotes.push(quoteText.textContent);
       }
       localStorage.setItem("likedQuotes", JSON.stringify(likedQuotes));
     });
 
-    saveImageIcon.addEventListener("click", function () {
+    // Save image functionality
+    icons.saveImage.addEventListener("click", function () {
       saveQuoteAsImage(quoteBlock);
     });
   });
-}
+};
+
+// Function to save the quote as an image
+const saveQuoteAsImage = (quoteElement) => {
+  const quoteText = quoteElement.querySelector('.quote-text').textContent;
+  const authorText = quoteElement.querySelector('.quote-author').textContent;
+  const sourceText = quoteElement.querySelector('.quote-source').textContent;
+
+  const canvas = document.createElement('canvas');
+  canvas.width = 600;
+  canvas.height = 400;
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = "#fff"; // Background color
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.font = "20px Arial";
+  ctx.fillStyle = "#000"; // Text color
+  ctx.fillText(quoteText, 20, 60);
+  ctx.fillText(authorText, 20, 100);
+  ctx.fillText(sourceText, 20, 140);
+  
+  // Convert canvas to image
+  canvas.toBlob(function(blob) {
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'quote.png';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }, 'image/png');
+};
+
