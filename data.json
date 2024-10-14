@@ -661,13 +661,13 @@
         "quote": "You pierce my soul. I'm half agony, half hope... I have loved none but you.",
         "author": "Jane Austen",
         "source": "Persuasion",
-        "tags": ["love"]
+        "tags": ["love", "soul", "pain"]
       },
       {
         "quote":"If you can meet with Triumph and Disaster, And treat those two imposters just the same.",
         "author":"Rudyard Kipling",
         "source":"If",
-        "tags":["life","truth","actions","character","contentment"]
+        "tags":["life", "truth", "actions"]
       },
       {
         "quote": "It is never too late to be what you might have been.",
@@ -710,7 +710,7 @@
         "author": "Eleanor Roosevelt",
         "source": "Unknown",
         "tags": ["dreams", "future", "hope"]
-      }
+      },
     {
         "quote": "Life holds a potential meaning under any condition, even the most miserable ones. ",
         "author": " Viktor Frankl",
