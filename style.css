@@ -193,7 +193,7 @@ body.dark {
 }
 
 body h2{
-  color: rgb(220, 215, 215)
+  color: rgb(255, 255, 255)
 }
 
 body.dark .quote-block {
@@ -210,7 +210,7 @@ body.dark .quote-source {
 }
 
 body.dark h2{
-    color: #ddd;
+    color: #ffffff;
 }
 
 #back-to-top {
@@ -362,5 +362,14 @@ li {
   font-size: 14px; 
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+form button{
+  margin-left: 10px; 
+  padding: 10px 20px; 
+  background-color:#ffffff; 
+  border: none; 
+  border-radius: 20px; 
+  color: rgb(0, 0, 0);
 }
 
