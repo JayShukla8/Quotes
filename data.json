@@ -716,5 +716,12 @@
         "author": " Viktor Frankl",
         "source": "Man's Search for Meaning- book",
         "tags": ["life", "patience","survival"]
+      },
+      {
+      "quote": "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.",
+        "author": "Friedrich Nietzsche",
+        "source": "Beyond Good and Evil",
+        "tags": ["philosophy", "Nietzsche", "self-reflection"]
+          
       }
 ]
