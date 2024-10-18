@@ -879,5 +879,27 @@
             "inspiration",
             "future"
         ]
+    },
+
+    {
+        "quote": "We cannot solve problems with the kind of thinking we employed when we came up with them.",
+        "author": "Albert Einstein",
+        "source": "Shopify - Motivational Quotes",
+        "tags": [
+            "reality",
+            "inspiration",
+            "wisdom"
+        ]
+    },
+
+    {
+        "quote": "Learn as if you will live forever, live like you will die tomorrow.",
+        "author": "Mahatma Gandhi",
+        "source": "Shopify - Motivational Quotes",
+        "tags": [
+            "reality",
+            "learning",
+            "wisdom"
+        ]
     }
 ]
