@@ -848,5 +848,15 @@
             "life",
             "wisdom"
         ]
+    },
+    {
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs",
+        "source": "Standford University Commencement Address, 2005",
+        "tags": [
+            "reality",
+            "inspiration",
+            "future"
+        ]
     }
 ]
