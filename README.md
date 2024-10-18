@@ -4,7 +4,7 @@ Some of the greatest quotes, submitted by You.[^1]
 [here](https://jayshukla8.github.io/Quotes/)
 
 ## Contributing
-Please check CONTRIBUTING.md for how?
+Please check [CONTRIBUTING.md](https://github.com/JayShukla8/Quotes/blob/main/CONTRIBUTING.md) for how?
 
 For newbies, adding your favorite quote (From any source that you like along with the author and the source.) in the data.json file would be a good-first-issue. 
 
