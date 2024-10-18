@@ -18,7 +18,7 @@
             "mindset",
             "thoughts"
         ]
-    },  
+    },
     {
         "quote": "To be everywhere is to be nowhere.",
         "author": "Seneca",
@@ -29,7 +29,7 @@
             "presence"
         ]
     },
-        {
+    {
         "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
         "author": "Albert Schweitzer",
         "source": "Reverence for Life",
@@ -77,7 +77,7 @@
             "love",
             "freedom",
             "appreciation"
-         ]
+        ]
     },
     {
         "quote": "In three words I can sum up everything I've learned about life: it goes on.",
@@ -673,91 +673,160 @@
         "quote": "Never let your sense of morals prevent you from doing what is right.",
         "author": "Isaac Asimov",
         "source": "Foundation",
-        "tags": ["morality", "ethics", "right vs wrong"]
-      },
-      {
+        "tags": [
+            "morality",
+            "ethics",
+            "right vs wrong"
+        ]
+    },
+    {
         "quote": "I hold the world but as the world, Gratiano, A stage where every man must play a part, And mine a sad one.",
         "author": "Antonio, Act 1 Scene 1",
         "source": "The Merchant of Venice - William Shakespeare",
-        "tags": ["life", "theater", "fate"]
-      },
-      {
+        "tags": [
+            "life",
+            "theater",
+            "fate"
+        ]
+    },
+    {
         "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
         "author": "Franklin D. Roosevelt",
         "source": "Speech in 1945",
-        "tags": ["doubt", "potential", "future"]
-      },
-      {
+        "tags": [
+            "doubt",
+            "potential",
+            "future"
+        ]
+    },
+    {
         "quote": "You pierce my soul. I'm half agony, half hope... I have loved none but you.",
         "author": "Jane Austen",
         "source": "Persuasion",
-        "tags": ["love", "soul", "pain"]
-      },
-      {
-        "quote":"If you can meet with Triumph and Disaster, And treat those two imposters just the same.",
-        "author":"Rudyard Kipling",
-        "source":"If",
-        "tags":["life", "truth", "actions"]
-      },
-      {
+        "tags": [
+            "love",
+            "soul",
+            "pain"
+        ]
+    },
+    {
+        "quote": "If you can meet with Triumph and Disaster, And treat those two imposters just the same.",
+        "author": "Rudyard Kipling",
+        "source": "If",
+        "tags": [
+            "life",
+            "truth",
+            "actions"
+        ]
+    },
+    {
         "quote": "It is never too late to be what you might have been.",
         "author": "George Eliot",
         "source": "Unknown",
-        "tags": ["inspiration", "self-improvement", "motivation"]
-      },
-      {
+        "tags": [
+            "inspiration",
+            "self-improvement",
+            "motivation"
+        ]
+    },
+    {
         "quote": "Not all those who wander are lost.",
         "author": "J.R.R. Tolkien",
         "source": "The Fellowship of the Ring",
-        "tags": ["adventure", "life", "journey"]
-      },
-      {
+        "tags": [
+            "adventure",
+            "life",
+            "journey"
+        ]
+    },
+    {
         "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
         "author": "Ralph Waldo Emerson",
         "source": "Unknown",
-        "tags": ["individuality", "leadership", "courage"]
-      },
-      {
+        "tags": [
+            "individuality",
+            "leadership",
+            "courage"
+        ]
+    },
+    {
         "quote": "The only way to do great work is to love what you do.",
         "author": "Steve Jobs",
         "source": "Stanford Commencement Speech",
-        "tags": ["work", "passion", "success"]
-      },
-      {
+        "tags": [
+            "work",
+            "passion",
+            "success"
+        ]
+    },
+    {
         "quote": "In three words I can sum up everything I've learned about life: it goes on.",
         "author": "Robert Frost",
         "source": "Unknown",
-        "tags": ["life", "resilience", "wisdom"]
-      },
-      {
+        "tags": [
+            "life",
+            "resilience",
+            "wisdom"
+        ]
+    },
+    {
         "quote": "It does not do to dwell on dreams and forget to live.",
         "author": "J.K. Rowling",
         "source": "Harry Potter and the Sorcerer's Stone",
-        "tags": ["life", "reality", "wisdom"]
-      },
-      {
+        "tags": [
+            "life",
+            "reality",
+            "wisdom"
+        ]
+    },
+    {
         "quote": "The future belongs to those who believe in the beauty of their dreams.",
         "author": "Eleanor Roosevelt",
         "source": "Unknown",
-        "tags": ["dreams", "future", "hope"]
-      },
+        "tags": [
+            "dreams",
+            "future",
+            "hope"
+        ]
+    },
     {
         "quote": "Life holds a potential meaning under any condition, even the most miserable ones. ",
         "author": " Viktor Frankl",
         "source": "Man's Search for Meaning- book",
-        "tags": ["life", "patience","survival"]
-      },
-      {
-      "quote": "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.",
+        "tags": [
+            "life",
+            "patience",
+            "survival"
+        ]
+    },
+    {
+        "quote": "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.",
         "author": "Friedrich Nietzsche",
         "source": "Beyond Good and Evil",
-        "tags": ["philosophy", "Nietzsche", "self-reflection"]
-          
-      },
+        "tags": [
+            "philosophy",
+            "Nietzsche",
+            "self-reflection"
+        ]
+    },
     {
         "quote": "The best way to predict your future is to create it.",
         "author": "Abraham Lincoln",
         "source": "Speech",
-        "tags": ["future","self-determination","inspiration"]
+        "tags": [
+            "future",
+            "self-determination",
+            "inspiration"
+        ]
+    },
+    {
+        "quote": "If it's not in your hand then it deserves freedom from your mind as well.",
+        "author": "Anonymous",
+        "source": "Anonymous",
+        "tags": [
+            "letting go",
+            "freedom",
+            "reality"
+        ]
     }
 ]
