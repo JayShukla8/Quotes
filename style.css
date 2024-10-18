@@ -356,11 +356,79 @@ li {
 }
 
 #tags .tag {
-  color: white; 
-  padding: 5px 10px; 
+  color: white;
+  padding: 5px 10px;
   border-radius: 5px;
-  font-size: 14px; 
+  font-size: 14px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+/* Common styles */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(30px);
+  border: 2px solid #483f3a;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: sticky;
+  top: 1rem;
+  z-index: 20;
+  gap: 1rem;
+}
+
+h2 {
+  margin: 0;
+}
+
+#tags {
+  background-color: bisque;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mode-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    border-radius: 20px;
+    gap: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #tags {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .icon-container {
+    align-self: flex-end;
+    padding: 0;
+  }
+
+  .mode-button {
+    padding: 5px;
+  }
 }
 
