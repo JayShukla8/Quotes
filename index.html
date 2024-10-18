@@ -19,23 +19,20 @@
 </head>
 
 <body class="merriweather-light">
-  <div style="display: flex; justify-content: space-between; align-items: center; backdrop-filter: blur(30px); border: 2px solid #483f3a; border-radius: 50px; padding-left: 10px; padding-right: 10px; position: sticky; top: 1rem; z-index: 20;">
-    <h2>Quotes.</h2>
-    <select id="tags" style="background-color: bisque; border-radius: 30px;">
-    </select>
-      <div style="display: flex; align-items: center;">
-        <button id="mode-button" class="mode-button">
-          <span id="sun-icon" class="mode-icon" style="display: none;">🌞</span>
-          <span id="moon-icon" class="mode-icon">🌜</span>
-        </button>
-        <button id="bubble-toggle-button" class="mode-button">
-          <span id="bubble-icon" class="mode-icon"></span>
-        </button> 
-      </div>
+  <div class="nav-container">
+    <h2>Quotes</h2>
+    <select id="tags"></select>
+    <div class="icon-container">
+      <button id="mode-button" class="mode-button">
+        <span id="sun-icon" class="mode-icon" style="display: none;">🌞</span>
+        <span id="moon-icon" class="mode-icon">🌜</span>
+      </button>
+      <button id="bubble-toggle-button" class="mode-button">
+        <span id="bubble-icon" class="mode-icon"></span>
+      </button> 
     </div>
-    
   </div>
-
+  
   <button type="button" id="back-to-top" title="Go to top">
     <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd"
