@@ -14,11 +14,25 @@
   <!-- Icons and styles -->
   <link rel="icon" href="images/quill.ico" type="image/x-icon" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="preloaderStyle.css">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 
 <body class="merriweather-light">
+  <!-- preloader -->
+  <div id="preloader">
+    <div class="wrapper">
+        <div class="box-wrap">
+            <div class="box one"></div>
+            <div class="box two"></div>
+            <div class="box three"></div>
+            <div class="box four"></div>
+            <div class="box five"></div>
+            <div class="box six"></div>
+        </div>
+    </div>
+</div>
   <div style="display: flex; justify-content: space-between; align-items: center; backdrop-filter: blur(30px); border: 2px solid #483f3a; border-radius: 50px; padding-left: 10px; padding-right: 10px; position: sticky; top: 1rem; z-index: 20;">
     <h2>Quotes.</h2>
     <select id="tags" style="background-color: bisque; border-radius: 30px;">
@@ -69,6 +83,7 @@
   <script src="script.js"></script>
   <script src="mode.js"></script>
   <script src="quoteImage.js"></script>
+  <script src="preloader.js"></script>
 </body>
 
 </html>
