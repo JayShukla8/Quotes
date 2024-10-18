@@ -124,18 +124,39 @@ const renderQuotes = (shuffledQuotes) => {
     cardBottom.className = "card-bottom";
 
     // Add icons
-    const copyIcon = createIcon("fas fa-copy", "Copy");
-    const shareIcon = createIcon("fas fa-share", "Share");
-    const voiceIcon = createIcon("fas fa-volume-up", "Voice");
-    const likeIcon = createIcon("fas fa-heart", "Like");
-    const ellipsisIcon = createIcon("fa-solid fa-ellipsis-vertical", "Toggle Icons");
-    const saveImageIcon = createIcon("fas fa-image", "Save as Image");
+        // Add copy icon
+        const copyIcon = document.createElement("i");
+        copyIcon.className = "icon fas fa-copy"; // FontAwesome copy icon
+    
+        // Add share icon
+        const shareIcon = document.createElement("i");
+        shareIcon.className = "icon fas fa-share"; // FontAwesome share icon
+    
+        // Add voice icon
+        const voiceIcon = document.createElement("i");
+        voiceIcon.className = "icon fas fa-volume-up"; // FontAwesome voice icon
+    
+        const likeIcon = document.createElement("i");
+        likeIcon.className = "icon fas fa-heart";
+    
+        // Add ellipse icon
+        const ellipsisIcon = document.createElement("i");
+        ellipsisIcon.className = "toggle-icon fa-solid fa-ellipsis-vertical";
+    
+        const saveImageIcon = document.createElement("i");
+        saveImageIcon.className = "icon fas fa-image";
+        saveImageIcon.title = "Save as Image";
 
     if (likedQuotes.includes(quoteText.textContent)) {
       likeIcon.classList.add("liked");
     }
 
     // Append icons to the container
+    iconsContainer.appendChild(copyIcon);
+    iconsContainer.appendChild(shareIcon);
+    iconsContainer.appendChild(voiceIcon);
+    iconsContainer.appendChild(likeIcon);
+    iconsContainer.appendChild(saveImageIcon);
     iconsContainer.appendChild(iconsWrapper);
     iconsWrapper.appendChild(copyIcon);
     iconsWrapper.appendChild(shareIcon);
@@ -161,7 +182,7 @@ const renderQuotes = (shuffledQuotes) => {
 
     // Toggle functionality
     ellipsisIcon.addEventListener("click", () => {
-      iconsContainer.classList.toggle("icons-visible"); // Change class for better control
+      iconsContainer.classList.toggle("icons-container");
     });
 
     // Copy functionality
@@ -175,10 +196,11 @@ const renderQuotes = (shuffledQuotes) => {
           // Revert the icon back to copy after a delay (e.g., 10 seconds)
           setTimeout(() => {
             copyIcon.className = "icon fas fa-copy";
-            iconsContainer.classList.remove("icons-visible"); // Hide icons again
+            iconsContainer.classList.toggle("icons-container");
           }, 10000);
         })
         .catch((err) => {
+          iconsContainer.classList.toggle("icons-container");
           console.log("Error copying text: ", err);
         });
     });
@@ -192,9 +214,11 @@ const renderQuotes = (shuffledQuotes) => {
             text: `${quoteText.textContent} ${quoteAuthor.textContent}\n\nRead more at: ${window.location.href}`,
           })
           .then(() => {
+            iconsContainer.classList.toggle("icons-container");
             console.log("Quote shared!");
           })
           .catch((error) => {
+            iconsContainer.classList.toggle("icons-container");
             console.log("Error sharing:", error);
           });
       } else {
@@ -208,6 +232,7 @@ const renderQuotes = (shuffledQuotes) => {
         `${quoteText.textContent} by ${quoteAuthor.textContent}`
       );
       speechSynthesis.speak(utterance);
+      iconsContainer.classList.toggle("icons-container");
     });
 
     // Like functionality
@@ -231,19 +256,4 @@ const renderQuotes = (shuffledQuotes) => {
   });
 };
 
-const createIcon = (iconClass, title) => {
-  const icon = document.createElement("i");
-  icon.className = `icon ${iconClass}`;
-  icon.title = title;
-  return icon;
-};
-
-const saveQuoteAsImage = (quoteBlock) => {
-  html2canvas(quoteBlock).then(canvas => {
-    const link = document.createElement('a');
-    link.href = canvas.toDataURL('image/png');
-    link.download = 'quote.png';
-    link.click();
-  });
-};
 
