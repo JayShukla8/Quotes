@@ -879,5 +879,35 @@
             "inspiration",
             "future"
         ]
-    }
+    },
+    {
+        "quote": "Every man has his secret sorrows which the world knows not; and often times we call a man cold when he is only sad.",
+        "author": "Henry Wadsworth Longfellow",
+        "source": "Unknown",
+        "tags": ["depression", "sorrow", "empathy"]
+      },
+      {
+        "quote": "Mental pain is less dramatic than physical pain, but it is more common and also harder to bear.",
+        "author": "C.S. Lewis",
+        "source": "The Problem of Pain",
+        "tags": ["depression", "mental health", "pain"]
+      },
+      {
+        "quote": "The only thing more exhausting than being depressed is pretending that you’re not.",
+        "author": "Unknown",
+        "source": "Unknown",
+        "tags": ["depression", "mental health", "exhaustion"]
+      },
+      {
+        "quote": "You say you’re ‘depressed’ – all I see is resilience. You are allowed to feel messed up and inside out. It doesn’t mean you’re defective – it just means you’re human.",
+        "author": "David Mitchell",
+        "source": "Cloud Atlas",
+        "tags": ["depression", "resilience", "humanity"]
+      },
+      {
+        "quote": "I didn’t want to wake up. I was having a much better time asleep. And that’s really sad. It was almost like a reverse nightmare, like when you wake up from a nightmare you’re so relieved. I woke up into a nightmare.",
+        "author": "Ned Vizzini",
+        "source": "It's Kind of a Funny Story",
+        "tags": ["depression", "sadness", "mental health"]
+      }
 ]
