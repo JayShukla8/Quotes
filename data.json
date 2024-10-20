@@ -716,7 +716,7 @@
         "source": "The Merchant of Venice - William Shakespeare",
         "tags": [
             "life",
-            "theater",
+            "theatre",
             "fate"
         ]
     },
@@ -929,5 +929,11 @@
             "learning",
             "wisdom"
         ]
+    },
+    {
+        "quote": "Give every man thy ear, but few thy tongue.",
+        "author": "Polonius, Act I, scene iii",
+        "source": "Hamlet- William Shakespeare",
+        "tags": ["advice", "life", "theatre"]
     }
 ]
