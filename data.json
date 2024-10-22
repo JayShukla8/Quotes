@@ -60,6 +60,16 @@
         ]
     },
     {
+        "quote": "The most wasted of all days is one without laughter.",
+        "author": "Nicolas Chamfort",
+        "source": "Maxims and Thoughts",
+        "tags": [
+            "laughter",
+            "wisdom",
+            "joy"
+        ]
+    },    
+    {
         "quote": "In the midst of movement and chaos, keep stillness inside of you.",
         "author": "Deepak Chopra",
         "source": "The Book of Secrets: Unlocking the Hidden Dimensions of Your Life",
@@ -716,7 +726,7 @@
         "source": "The Merchant of Venice - William Shakespeare",
         "tags": [
             "life",
-            "theater",
+            "theatre",
             "fate"
         ]
     },
@@ -939,5 +949,15 @@
             "wisdom",
             "self-reflection"
         ]
-    }
+    },
+    {
+        "quote": "Give every man thy ear, but few thy tongue.",
+        "author": "Polonius, Act I, scene iii",
+        "source": "Hamlet- William Shakespeare",
+        "tags": [
+            "advice", 
+            "life", 
+            "theatre"
+         ]
+      }
 ]
