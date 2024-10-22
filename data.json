@@ -959,5 +959,16 @@
             "life", 
             "theatre"
          ]
-      }
+      },
+    {
+      "quote": "If you believe in something and put it in your mind and heart, it can be realised.",
+      "author": "Eliud Kipchoge",
+      "source": "BBC Interview",
+       "tags": [
+                   "belief", 
+                   "mind", 
+                   "heart"
+                 ]
+    }
 ]
+
