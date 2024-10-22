@@ -60,6 +60,16 @@
         ]
     },
     {
+        "quote": "The most wasted of all days is one without laughter.",
+        "author": "Nicolas Chamfort",
+        "source": "Maxims and Thoughts",
+        "tags": [
+            "laughter",
+            "wisdom",
+            "joy"
+        ]
+    },    
+    {
         "quote": "In the midst of movement and chaos, keep stillness inside of you.",
         "author": "Deepak Chopra",
         "source": "The Book of Secrets: Unlocking the Hidden Dimensions of Your Life",
@@ -716,7 +726,7 @@
         "source": "The Merchant of Venice - William Shakespeare",
         "tags": [
             "life",
-            "theater",
+            "theatre",
             "fate"
         ]
     },
@@ -921,16 +931,6 @@
         ]
     },
     {
-        "quote": "The only true wisdom is in knowing you know nothing.",
-        "author": "Socrates",
-        "source": "Brainy Quotes",
-        "tags": [
-            "knowledge",
-            "mindset",
-            "thinking"
-        ]
-    },
-    {
         "quote": "Learn as if you will live forever, live like you will die tomorrow.",
         "author": "Mahatma Gandhi",
         "source": "Shopify - Motivational Quotes",
@@ -938,6 +938,46 @@
             "reality",
             "learning",
             "wisdom"
+        ]
+    },
+    {
+        "quote": "It’s just a bad day, not a bad life.",
+        "author": "Ave Mateiu",
+        "source": "avemateiu.com/quotes",
+        "tags": [
+            "life",
+            "wisdom",
+            "self-reflection"
+        ]
+    },
+    {
+        "quote": "Give every man thy ear, but few thy tongue.",
+        "author": "Polonius, Act I, scene iii",
+        "source": "Hamlet- William Shakespeare",
+        "tags": [
+            "advice", 
+            "life", 
+            "theatre"
+         ]
+      },
+    {
+      "quote": "If you believe in something and put it in your mind and heart, it can be realised.",
+      "author": "Eliud Kipchoge",
+      "source": "BBC Interview",
+       "tags": [
+                   "belief", 
+                   "mind", 
+                   "heart"
+                 ]
+    },
+    {
+        "quote": "The only true wisdom is in knowing you know nothing.",
+        "author": "Socrates",
+        "source": "Brainy Quotes",
+        "tags": [
+            "knowledge",
+            "mindset",
+            "thinking"
         ]
     }
 ]
