@@ -941,9 +941,23 @@
         ]
     },
     {
+        "quote": "It’s just a bad day, not a bad life.",
+        "author": "Ave Mateiu",
+        "source": "avemateiu.com/quotes",
+        "tags": [
+            "life",
+            "wisdom",
+            "self-reflection"
+        ]
+    },
+    {
         "quote": "Give every man thy ear, but few thy tongue.",
         "author": "Polonius, Act I, scene iii",
         "source": "Hamlet- William Shakespeare",
-        "tags": ["advice", "life", "theatre"]
-    }
+        "tags": [
+            "advice", 
+            "life", 
+            "theatre"
+         ]
+      }
 ]
