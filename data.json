@@ -1,210 +1,974 @@
-{
-  "quotes": [
+[
     {
-      "quote": "What's Life without a little risk?",
-      "author": "Sirius Black",
-      "source": "Order of the Phoenix"
+        "quote": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed no hope at all.",
+        "author": "Dale Carnegie",
+        "source": "Good Reads",
+        "tags": [
+            "perseverance",
+            "hope",
+            "achievement"
+        ]
     },
     {
-      "text": "Not all those who wander are lost.",
-      "author": "J.R.R. Tolkien",
-      "source": "The Fellowship of the Ring"
+        "quote": "The aim of life is no more to control the mind, but to develop it harmoniously; not to achieve salvation hereafter, but to make the best use of it here below.",
+        "author": "Bhagat Singh",
+        "source": "The Indian Express",
+        "tags": [
+            "goal",
+            "hope",
+            "life"
+        ]
     },
     {
-      "quote": "Batter my heart, three-person'd God,",
-      "author": "John Donne",
-      "source": "Holy Sonnets"
+        "quote": "If this isn't good enough, I don't know what is.",
+        "author": "Kurt Vonnegut",
+        "source": "Talk - The shape of stories",
+        "tags": [
+            "contentment",
+            "wisdom",
+            "perception"
+        ]
     },
     {
-      "quote": "Most people are, Scout, when you finally see them.",
-      "author": "Atticus Finch",
-      "source": "To Kill a Mockingbird"
+        "quote": "Be the change you want to see in the world.",
+        "author": "Mahatma Gandhi",
+        "source": "gandhiforchildren.org",
+        "tags": [
+            "wisdom",
+            "mindset",
+            "thoughts"
+        ]
     },
     {
-      "quote": "Now I am become death, the destroyer of Worlds.",
-      "author": "Krishn",
-      "source": "The Holy Geetā"
+        "quote": "To be everywhere is to be nowhere.",
+        "author": "Seneca",
+        "source": "The Letters of a Stoic",
+        "tags": [
+            "focus",
+            "stoicism",
+            "presence"
+        ]
     },
     {
-      "quote": "No real change in history has ever been achieved by discussions.",
-      "author": "Netaji Subhas Chandra Bose",
-      "source": "The Indian Struggle, 1920-1942"
+        "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+        "author": "Albert Schweitzer",
+        "source": "Reverence for Life",
+        "tags": [
+            "wisdom",
+            "balance",
+            "equanimity"
+        ]
     },
     {
-      "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-      "author": "Winston Churchill",
-      "source": "Speech, 1941"
+        "quote": "The most wasted of all days is one without laughter.",
+        "author": "Nicolas Chamfort",
+        "source": "Maxims and Thoughts",
+        "tags": [
+            "laughter",
+            "wisdom",
+            "joy"
+        ]
+    },    
+    {
+        "quote": "In the midst of movement and chaos, keep stillness inside of you.",
+        "author": "Deepak Chopra",
+        "source": "The Book of Secrets: Unlocking the Hidden Dimensions of Your Life",
+        "tags": [
+            "stillness",
+            "peace",
+            "life",
+            "chaos"
+        ]
     },
     {
-      "quote": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
-      "author": "Martin Luther King Jr.",
-      "source": "Letter from Birmingham Jail"
+        "quote": "Professionals stick to the schedule; amateurs let life get in the way.",
+        "author": "James Clear",
+        "source": "Atomic Habits",
+        "tags": [
+            "discipline",
+            "productivity",
+            "professionalism"
+        ]
     },
     {
-      "quote": "The only thing we have to fear is fear itself.",
-      "author": "Franklin D. Roosevelt",
-      "source": "First Inaugural Address, 1933"
+        "quote": "Adoration is the state furthest away from understanding.",
+        "author": "Aizen Sosuke",
+        "source": "Bleach",
+        "tags": [
+            "wisdom",
+            "understanding",
+            "perception"
+        ]
     },
     {
-      "quote": "Imagination is more important than knowledge.",
-      "author": "Albert Einstein",
-      "source": "Interview, 1929"
+        "quote": "The mind is everything. What you think you become.",
+        "author": "Buddha",
+        "source": "The Dhammapada",
+        "tags": [
+            "mindset",
+            "thoughts",
+            "philosophy"
+        ]
     },
     {
-      "quote": "The journey of a thousand miles begins with one step.",
-      "author": "Lao Tzu",
-      "source": "Tao Te Ching"
+        "quote": "Love is not about possession. Love is about appreciation.",
+        "author": "Osho",
+        "source": "Love, Freedom, Aloneness",
+        "tags": [
+            "love",
+            "freedom",
+            "appreciation"
+        ]
     },
     {
-      "quote": "That which does not kill us makes us stronger.",
-      "author": "Friedrich Nietzsche",
-      "source": "Twilight of the Idols, 1888"
+        "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+        "author": "Robert Frost",
+        "source": "The Poetry of Robert Frost",
+        "tags": [
+            "life",
+            "resilience",
+            "acceptance"
+        ]
     },
     {
-      "quote": "Be the change that you wish to see in the world.",
-      "author": "Mahatma Gandhi",
-      "source": "Speech, 1913"
+        "quote": "Winners are not afraid of losing. But losers are. Failure is part of the process of success. People who avoid failure also avoid success.",
+        "author": "Robert Kiyosaki",
+        "source": "Rich Dad, Poor Dad",
+        "tags": [
+            "success",
+            "failure",
+            "courage"
+        ]
     },
     {
-      "quote": "The best way to predict the future is to create it.",
-      "author": "Peter Drucker",
-      "source": "Management: Tasks, Responsibilities, Practices, 1973"
+        "quote": "Success is a lousy teacher. It seduces smart people into thinking they can't lose.",
+        "author": "Morgan Housel",
+        "source": "The Psychology Of Money",
+        "tags": [
+            "success",
+            "learning",
+            "humility"
+        ]
     },
     {
-      "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
-      "author": "Ralph Waldo Emerson",
-      "source": "Essay: Self-Reliance, 1841"
+        "quote": "What's life without a little risk?",
+        "author": "Sirius Black",
+        "source": "Order of the Phoenix",
+        "tags": [
+            "risk",
+            "adventure",
+            "life"
+        ]
     },
     {
-      "quote": "The mind acts like an enemy for those who do not control it.",
-      "author": "Shree Krishna",
-      "source": "Bhagavad Gita"
+        "quote": "The only way to get ahead is to start.",
+        "author": "Steven Bartlett",
+        "source": "The Diary of a CEO",
+        "tags": [
+            "action",
+            "progress",
+            "motivation"
+        ]
     },
     {
-      "quote": "Arise, awake, and stop not till the goal is reached.",
-      "author": "Swami Vivekananda",
-      "source": "Katha Upanishad"
+        "quote": "Batter my heart, three-person'd God,",
+        "author": "John Donne",
+        "source": "Holy Sonnets",
+        "tags": [
+            "faith",
+            "struggle",
+            "spirituality"
+        ]
     },
     {
-      "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
-      "author": "Ralph Waldo Emerson",
-      "source": "Essay: Self-Reliance, 1841"
+        "quote": "Most people are, Scout, when you finally see them.",
+        "author": "Atticus Finch",
+        "source": "To Kill a Mockingbird",
+        "tags": [
+            "empathy",
+            "understanding",
+            "human nature"
+        ]
     },
     {
-      "quote": "I think, therefore I am.",
-      "author": "René Descartes",
-      "source": "Discourse on the Method, 1637"
+        "quote": "No real change in history has ever been achieved by discussions.",
+        "author": "Netaji Subhas Chandra Bose",
+        "source": "The Indian Struggle, 1920-1942",
+        "tags": [
+            "action",
+            "change",
+            "history"
+        ]
     },
     {
-      "quote": "You must be the change you wish to see in the world.",
-      "author": "Mahatma Gandhi",
-      "source": "Speech, 1913"
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill",
+        "source": "Speech, 1941",
+        "tags": [
+            "success",
+            "failure",
+            "courage"
+        ]
     },
     {
-      "quote": "The unexamined life is not worth living.",
-      "author": "Socrates",
-      "source": "Apology"
+        "quote": "The mind acts like an enemy for those who do not control it.",
+        "author": "Shree Krishna",
+        "source": "Bhagavad Gita",
+        "tags": [
+            "mind",
+            "control",
+            "self-mastery"
+        ]
     },
     {
-      "quote": "It is not in the stars to hold our destiny but in ourselves.",
-      "author": "William Shakespeare",
-      "source": "Julius Caesar"
+        "quote": "Arise, awake, and stop not till the goal is reached.",
+        "author": "Swami Vivekananda",
+        "source": "Katha Upanishad",
+        "tags": [
+            "determination",
+            "motivation",
+            "goals"
+        ]
     },
     {
-      "quote": "All the world's a stage, and all the men and women merely players.",
-      "author": "William Shakespeare",
-      "source": "As You Like It"
+        "quote": "The unexamined life is not worth living.",
+        "author": "Socrates",
+        "source": "Apology",
+        "tags": [
+            "philosophy",
+            "self-reflection",
+            "life"
+        ]
     },
     {
-      "quote": "I have no special talent. I am only passionately curious.",
-      "author": "Albert Einstein",
-      "source": "Letter to Carl Seelig, 1952"
+        "quote": "It is not in the stars to hold our destiny but in ourselves.",
+        "author": "William Shakespeare",
+        "source": "Julius Caesar",
+        "tags": [
+            "destiny",
+            "self-determination",
+            "fate"
+        ]
     },
     {
-      "quote": "You only live once, but if you do it right, once is enough.",
-      "author": "Mae West",
-      "source": "Interview, 1937"
+        "quote": "I have no special talent. I am only passionately curious.",
+        "author": "Albert Einstein",
+        "source": "Letter to Carl Seelig, 1952",
+        "tags": [
+            "curiosity",
+            "learning",
+            "humility"
+        ]
     },
     {
-      "quote": "You have the right to perform your prescribed duties, but you are not entitled to the fruits of your actions.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 2, Verse 47"
+        "quote": "You only live once, but if you do it right, once is enough.",
+        "author": "Mae West",
+        "source": "Interview, 1937",
+        "tags": [
+            "life",
+            "living",
+            "wisdom"
+        ]
     },
     {
-      "quote": "The soul is neither born, and nor does it die; it is eternal and indestructible.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 2, Verse 20"
+        "quote": "Happiness is not something ready made. It comes from your own actions.",
+        "author": "Dalai Lama",
+        "source": "The Art of Happiness",
+        "tags": [
+            "happiness",
+            "actions",
+            "mindfulness"
+        ]
     },
     {
-      "quote": "A person is said to have attained yoga, the union with the Divine, when, having renounced all desires, he is satisfied in the self by the self.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 6, Verse 20"
+        "quote": "To love and be loved is to feel the sun from both sides.",
+        "author": "David Viscott",
+        "source": "Finding Your Strength in Difficult Times",
+        "tags": [
+            "love",
+            "relationships",
+            "emotion"
+        ]
     },
     {
-      "quote": "Perform your duty equipoised, O Arjuna, abandoning all attachment to success or failure. Such equanimity is called yoga.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 2, Verse 48"
+        "quote": "It does not matter how slowly you go as long as you do not stop.",
+        "author": "Confucius",
+        "source": "The Analects of Confucius",
+        "tags": [
+            "persistence",
+            "progress",
+            "determination"
+        ]
     },
     {
-      "quote": "In the middle of difficulty lies opportunity.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 4, Verse 39"
-    },
-    {
-      "quote": "When meditation is mastered, the mind is unwavering like the flame of a lamp in a windless place.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 6, Verse 13"
-    },
-    {
-      "quote": "He who is not disturbed by the dualities of happiness and distress, and is unbothered by the material world, is certainly eligible for liberation.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 14, Verse 22"
-    },
-    {
-      "quote": "The mind is everything. What you think, you become.",
-      "author": "Lord Krishna",
-      "source": "Bhagavad Gita - Chapter 6, Verse 5"
-    },
-    {
-      "quote": "Happiness is not something ready made. It comes from your own actions.",
-      "author": "Dalai Lama",
-      "source": "The Art of Happiness"
-    },
-    {
-      "quote": "The only true wisdom is in knowing you know nothing.",
-      "author": "Socrates",
-      "source": "Plato's Apology"
-    },
-    {
-      "quote": "To love and be loved is to feel the sun from both sides.",
-      "author": "David Viscott",
-      "source": "Finding Your Strength in Difficult Times"
-    },
-    {
-      "quote": "It does not matter how slowly you go as long as you do not stop.",
-      "author": "Confucius",
-      "source": "The Analects of Confucius"
-    },
-    {
-      "quote": "The best among you is the one who doesn’t harm others with his tongue and hands.",
-      "author": "Prophet Muhammad",
-      "source": "Sahih al-Bukhari"
+        "quote": "The best among you is the one who doesn’t harm others with his tongue and hands.",
+        "author": "Prophet Muhammad",
+        "source": "Sahih al-Bukhari",
+        "tags": [
+            "ethics",
+            "kindness",
+            "morality"
+        ]
     },
     {
         "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
         "author": "Buddha",
-        "source": "The Dhammapada"
+        "source": "The Dhammapada",
+        "tags": [
+            "present",
+            "mindfulness",
+            "wisdom"
+        ]
     },
     {
         "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
         "author": "Nelson Mandela",
-        "source": "Long Walk to Freedom"
+        "source": "Long Walk to Freedom",
+        "tags": [
+            "resilience",
+            "failure",
+            "perseverance"
+        ]
     },
+    {
+        "quote": "That's one small step for a man, one giant leap for mankind.",
+        "author": "Neil Armstrong",
+        "source": "Interview, July 20, 1969",
+        "tags": [
+            "achievement",
+            "history",
+            "progress"
+        ]
+    },
+    {
+        "quote": "Thinking of Peace Whilst Spilling Blood Is Something Only Humans Could Do.",
+        "author": "Madara Uchiha",
+        "source": "Naruto Shippuden",
+        "tags": [
+            "peace",
+            "violence",
+            "human nature"
+        ]
+    },
+    {
+        "quote": "No one saves us but ourselves. No one can and no one may. We ourselves must walk the path.",
+        "author": "Gautama Buddha",
+        "source": "The Dhammapada",
+        "tags": [
+            "self-reliance",
+            "wisdom",
+            "self-determination"
+        ]
+    },
+    {
+        "quote": "Peace comes from within. Do not seek it without.",
+        "author": "Gautama Buddha",
+        "source": "The Dhammapada",
+        "tags": [
+            "peace",
+            "mindfulness",
+            "inner strength"
+        ]
+    },
+    {
+        "quote": "The happiness of your life depends upon the quality of your thoughts.",
+        "author": "Marcus Aurelius",
+        "source": "Meditations, Book 4, Chapter 3",
+        "tags": [
+            "thoughts",
+            "happiness",
+            "stoicism"
+        ]
+    },
+    {
+        "quote": "The world is a transient place, not a place of stay.",
+        "author": "Hazrat Ali",
+        "source": "Nahj Al-Balaghah Vol.2",
+        "tags": [
+            "life",
+            "transience",
+            "impermanence"
+        ]
+    },
+    {
+        "quote": "If a man hasn't discovered something that he will die for, he isn't fit to live.",
+        "author": "Martin Luther King Jr.",
+        "source": "Martin Luther King Jr.'s Detroit speech",
+        "tags": [
+            "purpose",
+            "life",
+            "sacrifice"
+        ]
+    },
+    {
+        "quote": "Reach high, for stars lie hidden in you. Dream deep, for every dream precedes the goal.",
+        "author": "Rabindranath Tagore",
+        "source": "Words of Rabindranath Tagore",
+        "tags": [
+            "dreams",
+            "aspiration",
+            "potential"
+        ]
+    },
+    {
+        "quote": "Do not let circumstances control you. You change your circumstances.",
+        "author": "Jackie Chan",
+        "source": "Jackie Chan: My Stunts",
+        "tags": [
+            "self-reliance",
+            "circumstances",
+            "control"
+        ]
+    },
+    {
+        "quote": "One who is equal in both success and failure is truly wise.",
+        "author": "Lord Krishna",
+        "source": "Bhagavad Gita - Chapter 2, Verse 48",
+        "tags": [
+            "wisdom",
+            "balance",
+            "equanimity"
+        ]
+    },
+    {
+        "quote": "Words are, in my not so humble opinion, our most inexhaustible source of magic, capable of both influencing injury, and remedying it.",
+        "author": "Albus Dumbledore (JK Rowling)",
+        "source": "Harry Potter and the Deathly Hallows: Part 2",
+        "tags": [
+            "words",
+            "magic",
+            "power"
+        ]
+    },
+    {
+        "quote": "Never Settle for Anything less than what you Deserve. It's not pride, it's Self Respect.",
+        "author": "Chanakya",
+        "source": "Chanakya Niti",
+        "tags": [
+            "self-respect",
+            "standards",
+            "dignity"
+        ]
+    },
+    {
+        "quote": "A man is great by deeds. Not by birth.",
+        "author": "Chanakya",
+        "source": "Chanakya Niti",
+        "tags": [
+            "greatness",
+            "actions",
+            "merit"
+        ]
+    },
+    {
+        "quote": "First say to yourself what you would be; and then do what you have to do.",
+        "author": "Epictetus",
+        "source": "The Discourses",
+        "tags": [
+            "self-awareness",
+            "action",
+            "philosophy"
+        ]
+    },
+    {
+        "quote": "If you start out by promising what you don't even have yet, you'll lose your desire to work toward getting it.",
+        "author": "Melchizedek, the King of Salem",
+        "source": "The Alchemist",
+        "tags": [
+            "promises",
+            "effort",
+            "desire"
+        ]
+    },
+    {
+        "quote": "It's the simple things in life that are the most extraordinary; only wise men are able to understand them.",
+        "author": "The Gypsy Woman",
+        "source": "The Alchemist",
+        "tags": [
+            "simplicity",
+            "wisdom",
+            "life"
+        ]
+    },
+    {
+        "quote": "I measure the progress of a community by the degree of progress which women have achieved.",
+        "author": "B.R. Ambedkar",
+        "source": "Speech at the All-India Depressed Classes Women’s Conference",
+        "tags": [
+            "progress",
+            "women",
+            "society"
+        ]
+    },
+    {
+        "quote": "It is not enough to be industrious; so are the ants. What are you industrious about?",
+        "author": "Henry David Thoreau",
+        "source": "Letter to H.G.O. Blake, 1857",
+        "tags": [
+            "purpose",
+            "work",
+            "reflection"
+        ]
+    },
+    {
+        "quote": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one that has been opened for us.",
+        "author": "Helen Keller",
+        "source": "We Bereaved, 1929",
+        "tags": [
+            "opportunity",
+            "happiness",
+            "perspective"
+        ]
+    },
+    {
+        "quote": "He who has a why to live can bear almost any how.",
+        "author": "Friedrich Nietzsche",
+        "source": "Twilight of the Idols, 1889",
+        "tags": [
+            "purpose",
+            "resilience",
+            "life"
+        ]
+    },
+    {
+        "quote": "We can know only that we know nothing. And that is the highest degree of human wisdom.",
+        "author": "Leo Tolstoy",
+        "source": "War and Peace, 1869",
+        "tags": [
+            "wisdom",
+            "humility",
+            "knowledge"
+        ]
+    },
+    {
+        "quote": "The path to innovation is often hidden in the silence of moments we overlook.",
+        "author": "J.A. Sterling",
+        "source": "Original Thought",
+        "tags": [
+            "innovation",
+            "reflection",
+            "creativity"
+        ]
+    },
+    {
+        "quote": "And those who were seen dancing were thought to be insane by those who could not hear the music.",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "tags": [
+            "creativity",
+            "individuality",
+            "perception"
+        ]
+    },
+    {
+        "quote": "Difficulties increase the nearer we get to the goal.",
+        "author": "Johann Wolfgang von Goethe",
+        "source": "Meditations, Part X",
+        "tags": [
+            "struggle",
+            "goals",
+            "progress"
+        ]
+    },
+    {
+        "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+        "author": "Albert Einstein",
+        "source": "brainyquote",
+        "tags": [
+            "curiosity",
+            "learning",
+            "inquiry"
+        ]
+    },
+    {
+        "quote": "Comparison is the thief of joy.",
+        "author": "Theodore Roosevelt",
+        "source": "Roosevelt's documented speeches or writings",
+        "tags": [
+            "comparison",
+            "happiness",
+            "contentment"
+        ]
+    },
+    {
+        "quote": "It takes a mighty good man to be better than no man at all.",
+        "author": "Dixie Carter",
+        "source": "Speech, 1941",
+        "tags": [
+            "integrity",
+            "standards",
+            "relationships"
+        ]
+    },
+    {
+        "quote": "A truth can never be destroyed. One should not be afraid of doing good.",
+        "author": "Shree Krishna",
+        "source": "Bhagavad Gita",
+        "tags": [
+            "truth",
+            "morality",
+            "righteousness"
+        ]
+    },
+    {
+        "quote": "You miss 100% of the shots you don’t take.",
+        "author": "Wayne Gretzky",
+        "source": "Interview with Sport Illustrated",
+        "tags": [
+            "action",
+            "opportunity",
+            "fear"
+        ]
+    },
+    {
+        "quote": "Let the young man in his desperation go out and hunt. If he kills the elephant, his poverty ends. If the elephant kills him, his poverty ends.",
+        "author": "Pete Edochie",
+        "source": "Nigeria Stories",
+        "tags": [
+            "risk",
+            "poverty",
+            "adventure"
+        ]
+    },
+    {
+        "quote": "Don't be the bare minimum guy.",
+        "author": "Harkirat Singh",
+        "source": "YouTube Video",
+        "tags": [
+            "effort",
+            "standards",
+            "self-respect"
+        ]
+    },
+    {
+        "quote": "Your worst sin is that you have destroyed and betrayed yourself for nothing.",
+        "author": "Fyodor Dostoevsky",
+        "source": "Crime and Punishment",
+        "tags": [
+            "self-betrayal",
+            "regret",
+            "sin"
+        ]
+    },
+    {
+        "quote": "It is not our abilities that show what we truly are... it is our choices.",
+        "author": "J.K. Rowling",
+        "source": "Harry Potter and the Chamber of Secrets (1998)",
+        "tags": [
+            "character",
+            "choices",
+            "abilities"
+        ]
+    },
+    {
+        "quote": "You are only entitled to the action, never to its fruits.",
+        "author": "Shree Krishna",
+        "source": "Bhagavad Gita",
+        "tags": [
+            "action",
+            "detachment",
+            "duty"
+        ]
+    },
+    {
+        "quote": "Life is like a box of chocolates. You never know what you're gonna get.",
+        "author": "Forrest Gump",
+        "source": "Forrest Gump (1994)",
+        "tags": [
+            "life",
+            "uncertainty",
+            "surprises"
+        ]
+    },
+    {
+        "quote": "Whatever happened, happened for the good. Whatever is happening, is happening for the good. Whatever will happen will happen for good.",
+        "author": "Lord Krishna",
+        "source": "The Holy Geetā",
+        "tags": [
+            "acceptance",
+            "faith",
+            "trust"
+        ]
+    },
+    {
+        "quote": "In the middle of every difficulty lies opportunity.",
+        "author": "Albert Einstein",
+        "source": "goodreads",
+        "tags": [
+            "opportunity",
+            "challenges",
+            "growth"
+        ]
+    },
+    {
+        "quote": "Life can only be understood backwards; but it must be lived forwards.",
+        "author": "Søren Kierkegaard",
+        "source": "The Journals of Soren Kierkegaard (1844)",
+        "tags": [
+            "life",
+            "reflection",
+            "understanding"
+        ]
+    },
+    {
+        "quote": "Never let your sense of morals prevent you from doing what is right.",
+        "author": "Isaac Asimov",
+        "source": "Foundation",
+        "tags": [
+            "morality",
+            "ethics",
+            "right vs wrong"
+        ]
+    },
+    {
+        "quote": "I hold the world but as the world, Gratiano, A stage where every man must play a part, And mine a sad one.",
+        "author": "Antonio, Act 1 Scene 1",
+        "source": "The Merchant of Venice - William Shakespeare",
+        "tags": [
+            "life",
+            "theatre",
+            "fate"
+        ]
+    },
+    {
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt",
+        "source": "Speech in 1945",
+        "tags": [
+            "doubt",
+            "potential",
+            "future"
+        ]
+    },
+    {
+        "quote": "You pierce my soul. I'm half agony, half hope... I have loved none but you.",
+        "author": "Jane Austen",
+        "source": "Persuasion",
+        "tags": [
+            "love",
+            "soul",
+            "pain"
+        ]
+    },
+    {
+        "quote": "If you can meet with Triumph and Disaster, And treat those two imposters just the same.",
+        "author": "Rudyard Kipling",
+        "source": "If",
+        "tags": [
+            "life",
+            "truth",
+            "actions"
+        ]
+    },
+    {
+        "quote": "It is never too late to be what you might have been.",
+        "author": "George Eliot",
+        "source": "Unknown",
+        "tags": [
+            "inspiration",
+            "self-improvement",
+            "motivation"
+        ]
+    },
+    {
+        "quote": "Not all those who wander are lost.",
+        "author": "J.R.R. Tolkien",
+        "source": "The Fellowship of the Ring",
+        "tags": [
+            "adventure",
+            "life",
+            "journey"
+        ]
+    },
+    {
+        "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+        "author": "Ralph Waldo Emerson",
+        "source": "Unknown",
+        "tags": [
+            "individuality",
+            "leadership",
+            "courage"
+        ]
+    },
+    {
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs",
+        "source": "Stanford Commencement Speech",
+        "tags": [
+            "work",
+            "passion",
+            "success"
+        ]
+    },
+    {
+        "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+        "author": "Robert Frost",
+        "source": "Unknown",
+        "tags": [
+            "life",
+            "resilience",
+            "wisdom"
+        ]
+    },
+    {
+        "quote": "It does not do to dwell on dreams and forget to live.",
+        "author": "J.K. Rowling",
+        "source": "Harry Potter and the Sorcerer's Stone",
+        "tags": [
+            "life",
+            "reality",
+            "wisdom"
+        ]
+    },
+    {
+        "quote": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt",
+        "source": "Unknown",
+        "tags": [
+            "dreams",
+            "future",
+            "hope"
+        ]
+    },
+    {
+        "quote": "Life holds a potential meaning under any condition, even the most miserable ones. ",
+        "author": " Viktor Frankl",
+        "source": "Man's Search for Meaning- book",
+        "tags": [
+            "life",
+            "patience",
+            "survival"
+        ]
+    },
+    {
+        "quote": "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.",
+        "author": "Friedrich Nietzsche",
+        "source": "Beyond Good and Evil",
+        "tags": [
+            "philosophy",
+            "Nietzsche",
+            "self-reflection"
+        ]
+    },
+    {
+        "quote": "The best way to predict your future is to create it.",
+        "author": "Abraham Lincoln",
+        "source": "Speech",
+        "tags": [
+            "future",
+            "self-determination",
+            "inspiration"
+        ]
+    },
+    {
+        "quote": "If it's not in your hand then it deserves freedom from your mind as well.",
+        "author": "Ivan Nuru",
+        "source": "Unknown",
+        "tags": [
+            "letting go",
+            "freedom",
+            "reality"
+        ]
+    },
+    {
+        "quote": "Wisdom is the reward for a lifetime of listening when you would have preferred to talk.",
+        "author": "Doug Larson",
+        "source": "Good Reads",
+        "tags": [
+            "listening",
+            "life",
+            "wisdom"
+        ]
+    },
+    {
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs",
+        "source": "Standford University Commencement Address, 2005",
+        "tags": [
+            "reality",
+            "inspiration",
+            "future"
+        ]
+    },
+    {
+        "quote": "Every man has his secret sorrows which the world knows not; and often times we call a man cold when he is only sad.",
+        "author": "Henry Wadsworth Longfellow",
+        "source": "Unknown",
+        "tags": ["depression", "sorrow", "empathy"]
+      },
+      {
+        "quote": "Mental pain is less dramatic than physical pain, but it is more common and also harder to bear.",
+        "author": "C.S. Lewis",
+        "source": "The Problem of Pain",
+        "tags": ["depression", "mental health", "pain"]
+      },
+      {
+        "quote": "The only thing more exhausting than being depressed is pretending that you’re not.",
+        "author": "Unknown",
+        "source": "Unknown",
+        "tags": ["depression", "mental health", "exhaustion"]
+      },
+      {
+        "quote": "You say you’re ‘depressed’ – all I see is resilience. You are allowed to feel messed up and inside out. It doesn’t mean you’re defective – it just means you’re human.",
+        "author": "David Mitchell",
+        "source": "Cloud Atlas",
+        "tags": ["depression", "resilience", "humanity"]
+      },
+      {
+        "quote": "I didn’t want to wake up. I was having a much better time asleep. And that’s really sad. It was almost like a reverse nightmare, like when you wake up from a nightmare you’re so relieved. I woke up into a nightmare.",
+        "author": "Ned Vizzini",
+        "source": "It's Kind of a Funny Story",
+        "tags": ["depression", "sadness", "mental health"]
+      },
+    {
+        "quote": "We cannot solve problems with the kind of thinking we employed when we came up with them.",
+        "author": "Albert Einstein",
+        "source": "Shopify - Motivational Quotes",
+        "tags": [
+            "reality",
+            "inspiration",
+            "wisdom"
+        ]
+    },
+    {
+        "quote": "Learn as if you will live forever, live like you will die tomorrow.",
+        "author": "Mahatma Gandhi",
+        "source": "Shopify - Motivational Quotes",
+        "tags": [
+            "reality",
+            "learning",
+            "wisdom"
+        ]
+    },
+    {
+        "quote": "It’s just a bad day, not a bad life.",
+        "author": "Ave Mateiu",
+        "source": "avemateiu.com/quotes",
+        "tags": [
+            "life",
+            "wisdom",
+            "self-reflection"
+        ]
+    },
+    {
+        "quote": "Give every man thy ear, but few thy tongue.",
+        "author": "Polonius, Act I, scene iii",
+        "source": "Hamlet- William Shakespeare",
+        "tags": [
+            "advice", 
+            "life", 
+            "theatre"
+         ]
+      },
     {
       "quote": "If you believe in something and put it in your mind and heart, it can be realised.",
       "author": "Eliud Kipchoge",
-      "source": "BBC Interview"
-    },
-      
-  ]
-}
+      "source": "BBC Interview",
+       "tags": [
+                   "belief", 
+                   "mind", 
+                   "heart"
+                 ]
+    }
+]
+
