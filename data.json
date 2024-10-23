@@ -971,6 +971,26 @@
                  ]
     },
     {
+        "quote": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
+        "author": "Helen Keller",
+        "source": "The Story of My Life",
+        "tags": [
+            "happiness",
+            "fulfillment", 
+            "love"
+        ]
+    },
+    {
+        "quote": "Life is what happens to you while you're busy making other plans.",
+        "author": "John Lennon",
+        "source": "Interview with Playboy magazine, 1970",
+        "tags": [
+            "life",
+            "unpredictability",
+            "acceptance"
+        ]
+    },
+    {
         "quote": "The only true wisdom is in knowing you know nothing.",
         "author": "Socrates",
         "source": "Brainy Quotes",
@@ -1088,7 +1108,26 @@
             "human nature",
             "mind",
             "self-improvement"
+          ]      
+    },
+    {
+        "quote": "The best revenge is massive success.",
+        "author": "Frank Sinatra",
+        "source": "goodreads",
+        "tags": [
+            "inspiration",
+            "victory",
+            "thinking"
+        ]
+    },
+    {
+        "quote": "I am not a product of my circumstances. I am a product of my decisions.",
+        "author": "Stephen Covey",
+        "source": "goodreads",
+        "tags": [
+            "wishdom",
+            "belief",
+            "leadership"
         ]
     }
-
 ]
