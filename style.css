@@ -399,6 +399,32 @@ h2 {
   cursor: pointer;
 }
 
+#pagination-controls {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: 1px solid #007bff;
+  background-color: #f8f9fa;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.pagination-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+
 /* Responsive design for mobile screens */
 @media (max-width: 768px) {
   .nav-container {
