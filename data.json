@@ -979,5 +979,25 @@
             "mindset",
             "thinking"
         ]
+    },
+    {
+        "quote": "The best revenge is massive success.",
+        "author": "Frank Sinatra",
+        "source": "goodreads",
+        "tags": [
+            "inspiration",
+            "victory",
+            "thinking"
+        ]
+    },
+    {
+        "quote": "I am not a product of my circumstances. I am a product of my decisions.",
+        "author": "Stephen Covey",
+        "source": "goodreads",
+        "tags": [
+            "wishdom",
+            "belief",
+            "leadership"
+        ]
     }
 ]
