@@ -929,5 +929,38 @@
             "learning",
             "wisdom"
         ]
-    }
+    },
+    {
+        "quote": "You can’t blame gravity for falling in love.",
+        "author": "Albert Einstein",
+        "source": "A Letter to Marie Curie",
+        "tags": [
+            "humor",
+            "love",
+            "inspiration",
+            "reality"
+        ]
+    },
+    {
+        "quote": "Do not take life too seriously. You will never get out of it alive.",
+        "author": "Elbert Hubbard",
+        "source": "The Note Book of Elbert Hubbard",
+        "tags": [
+            "fun",
+            "humor",
+            "learning",
+            "wisdom"
+        ]
+    },
+    {
+        "quote": "Life is short, smile while you still have teeth.",
+        "author": "Mallory Hopkins",
+        "source": "Personal Poems",
+        "tags": [
+            "fun",
+            "humor",
+            "wisdom",
+            "reality"
+        ]
+    }    
 ]
