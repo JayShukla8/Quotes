@@ -940,7 +940,6 @@
             "wisdom"
         ]
     },
-    {
         "quote": "It’s just a bad day, not a bad life.",
         "author": "Ave Mateiu",
         "source": "avemateiu.com/quotes",
@@ -1149,5 +1148,36 @@
             "philanthropy",
             "work"
         ]
-    }
+    },
+ {
+        "quote": "You can’t blame gravity for falling in love.",
+        "author": "Albert Einstein",
+        "source": "A Letter to Marie Curie",
+        "tags": [
+            "humor",
+            "love",
+            "reality"
+        ]
+    },
+    {
+        "quote": "Do not take life too seriously. You will never get out of it alive.",
+        "author": "Elbert Hubbard",
+        "source": "The Note Book of Elbert Hubbard",
+        "tags": [
+            "fun",
+            "humor",
+            "wisdom"
+        ]
+    },
+    {
+        "quote": "Life is short, smile while you still have teeth.",
+        "author": "Mallory Hopkins",
+        "source": "Personal Poems",
+        "tags": [
+            "fun",
+            "humor",
+            "life"
+        ]
+    }    
 ]
+
