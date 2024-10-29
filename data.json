@@ -12,7 +12,7 @@
     
     {
         "quote":  "It's fine to celebrate success, but it is more important to heed the lessons of failure.",
-        "author": "Bill Gates"
+        "author": "Bill Gates",
         "source": "Forbes India",
         "tags": [
             "hardwork",
@@ -1210,6 +1210,17 @@
             "confidence",
             "determination"
         ]
-    }   
+    },
+    {
+        "quote": "Time is what we want most, but what we use worst.",
+        "author": "William Penn",
+        "source": "Goodreads",
+        "tags": [
+            "time",
+            "wisdom",
+            "life"
+        ]
+    }
+    
 ]
 
