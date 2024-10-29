@@ -940,6 +940,7 @@
             "wisdom"
         ]
     },
+    {
         "quote": "It’s just a bad day, not a bad life.",
         "author": "Ave Mateiu",
         "source": "avemateiu.com/quotes",
@@ -1178,6 +1179,16 @@
             "humor",
             "life"
         ]
-    }    
+    },
+    {
+        "quote": "Believe you can and you're halfway there.",
+        "author": "Theodore Roosevelt",
+        "source": "BrainyQuote",
+        "tags": [
+            "motivation",
+            "confidence",
+            "determination"
+        ]
+    }   
 ]
 
