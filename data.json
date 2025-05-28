@@ -1,5 +1,25 @@
 [
     {
+        "quote": ""   ,
+        "author": "Christopher Paolini"  ,
+        "source": "Fractal Noise"   ,
+        "tags": [
+            "life",
+            "change",
+            "impermanence"
+        ]
+    },
+    {
+        "quote": "All persons, living and dead, are purely coincidental",
+        "author": "Kurt Vonnegut" ,
+        "source": "Timequake" ,
+        "tags": [
+            "existentialism",
+            "satire",
+            "identity"
+        ]
+    },
+    {
         "quote": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed no hope at all.",
         "author": "Dale Carnegie",
         "source": "Good Reads",
@@ -1280,4 +1300,3 @@
     }
     
 ]
-
